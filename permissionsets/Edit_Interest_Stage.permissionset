@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>For certain individuals on the TfN Standard User Profile, that require Edit rights for Interest Stage.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>loc03__Easement_FeeTitle__c.tfn_Interest_Stage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Edit Interest Stage</label>
+    <license>Salesforce</license>
+</PermissionSet>

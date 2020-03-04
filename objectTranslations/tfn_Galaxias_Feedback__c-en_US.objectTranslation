@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Galaxias Feedback</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Galaxias Feedback</value>
+    </caseValues>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>tfn_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback Details --></label>
+        <name>tfn_Feedback_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback Status --></label>
+        <name>tfn_Feedback_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Feedback Type --></label>
+        <name>tfn_Feedback_Type__c</name>
+        <picklistValues>
+            <masterLabel>Enhancement</masterLabel>
+            <translation><!-- Enhancement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issue</masterLabel>
+            <translation><!-- Issue --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Feedback by: --></label>
+        <name>tfn_Feedback_by__c</name>
+        <relationshipLabel><!-- Galaxias Feedback --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Future feature --></label>
+        <name>tfn_Future_feature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution --></label>
+        <name>tfn_Solution__c</name>
+    </fields>
+    <layouts>
+        <layout>Galaxias Feedback Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

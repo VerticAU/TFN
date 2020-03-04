@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Enter here the text that will appear in the receipt for donations related to this Campaign --></help>
+        <label><!-- Receipt Text --></label>
+        <name>Receipt_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- If project is related to an CE or Fee Title, note how many acres are involved if applicable. --></help>
+        <label><!-- Acres Involved --></label>
+        <name>loc03__Acres_Involved__c</name>
+    </fields>
+    <fields>
+        <help><!-- Easement/Fee Title associated with Campaign/Project if applicable --></help>
+        <label><!-- Easement/Fee Title --></label>
+        <name>loc03__Easement_Fee_Title__c</name>
+        <relationshipLabel><!-- Campaigns --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Who is the primary owner related to the project if different than Conservation Organization. --></help>
+        <label><!-- Project Owner --></label>
+        <name>loc03__Project_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Appeal Type --></label>
+        <name>tfn_npsp_Appeal_Type__c</name>
+        <picklistValues>
+            <masterLabel>Tied</masterLabel>
+            <translation><!-- Tied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Untied</masterLabel>
+            <translation><!-- Untied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hierarchy --></label>
+        <name>tfn_npsp_Hierarchy__c</name>
+        <picklistValues>
+            <masterLabel>Child Campaign or Appeal</masterLabel>
+            <translation><!-- Child Campaign or Appeal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent Campaign</masterLabel>
+            <translation><!-- Parent Campaign --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RE Appeal ID --></label>
+        <name>tfn_npsp_RE_Appeal_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- RE Appeal Import ID --></label>
+        <name>tfn_npsp_RE_Appeal_Import_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- TechOne GL Code --></label>
+        <name>tfn_npsp_TechOne_GL_Code__c</name>
+        <relationshipLabel><!-- Campaigns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Campaign Monitor Id --></label>
+        <name>wbsendit__Campaign_Monitor_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Connect this Salesforce Campaign to sent campaigns in Campaign Monitor. Use this to manage campaign reports from within Salesforce. Send It will add any members it finds in Campaign Monitor to this campaign. --></help>
+        <label><!-- Campaign Monitor --></label>
+        <name>wbsendit__Campaign_Monitor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Text version of the email sent. --></help>
+        <label><!-- Email Text Version --></label>
+        <name>wbsendit__Email_Text_Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Web version of the email campaign. --></help>
+        <label><!-- Email Web Version --></label>
+        <name>wbsendit__Email_Web_Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of bounced emails for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Bounced --></label>
+        <name>wbsendit__Num_Bounced__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of clicks for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Clicks --></label>
+        <name>wbsendit__Num_Clicks__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of forwarded emails for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Forwards --></label>
+        <name>wbsendit__Num_Forwards__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of likes for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Likes --></label>
+        <name>wbsendit__Num_Likes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of &quot;Mentions&quot; for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Mentions --></label>
+        <name>wbsendit__Num_Mentions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of open emails for the associated Campaign Monitor campaign. --></help>
+        <label><!-- Num Opens --></label>
+        <name>wbsendit__Num_Opens__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of recipients for the associated Campaign Monitor campaign. --></help>
+        <label><!-- Num Recipients --></label>
+        <name>wbsendit__Num_Recipients__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of Spam Complaints for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Spam Complaints --></label>
+        <name>wbsendit__Num_Spam_Complaints__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of unique open emails for the associated Campaign Monitor campaign. --></help>
+        <label><!-- Num Unique Opens --></label>
+        <name>wbsendit__Num_Unique_Opens__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of unsubscribes for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Unsubscribed --></label>
+        <name>wbsendit__Num_Unsubscribed__c</name>
+    </fields>
+    <fields>
+        <help><!-- World view of the email campaign tracking. --></help>
+        <label><!-- World View Email Tracking --></label>
+        <name>wbsendit__World_View_Email_Tracking__c</name>
+    </fields>
+    <layouts>
+        <layout>Campaign Layout</layout>
+        <sections>
+            <label><!-- Campaign Monitor Statistics --></label>
+            <section>Campaign Monitor Statistics</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Child Campaign --></label>
+        <name>Child_Campaign</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- ViewAllCampaignMembers --></label>
+        <name>ViewAllCampaignMembers</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Household_Mailing_List --></label>
+        <name>npo02__Household_Mailing_List</name>
+    </webLinks>
+</CustomObjectTranslation>

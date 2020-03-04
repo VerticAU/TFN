@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>loc03__Easement_FeeTitle__c</entityName>
+    <fieldName>tfn_Interest_Stage__c</fieldName>
+    <masterLabel>TFN Interests RF Acquisition</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Board_Approval__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;tbc&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Approval</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>tfn_Interest_Completion_Date__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;tbc&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Completed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>tfn_Valuation_Date__c</fieldNames>
+        <fieldNames>tfn_Acquisition_Report_Date__c</fieldNames>
+        <fieldNames>Committee_Approval__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;tbc&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Develop</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Contract_Signed_TfN__c</fieldNames>
+        <fieldNames>Settlement_Date__c</fieldNames>
+        <fieldNames>Title_Registration__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;tbc&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Execution</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>tfn_Interest_Start_Date__c</fieldNames>
+        <fieldNames>Acquisition_Rec__c</fieldNames>
+        <fieldNames>Regional_Officer_Assessed__c</fieldNames>
+        <fieldNames>Executive_Team_Signing__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;tbc&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Initiate</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>tfn_RF_Acquisition</recordTypeName>
+</PathAssistant>

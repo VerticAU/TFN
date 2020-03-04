@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>loc03__Monitoring__c</entityName>
+    <fieldName>loc03__Monitoring_Status__c</fieldName>
+    <masterLabel>TFN Monitoring: Ecological Event</masterLabel>
+    <recordTypeName>tfn_Ecological_Event</recordTypeName>
+</PathAssistant>

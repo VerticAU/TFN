@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Management Plan Tracking</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Management Plan Tracking</value>
+    </caseValues>
+    <fields>
+        <label><!-- Interest --></label>
+        <name>Interest__c</name>
+        <relationshipLabel><!-- Management Plan Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Active Version? --></label>
+        <name>tfn_Active_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Link --></label>
+        <name>tfn_Document_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Draft Follow Up Reminder --></label>
+        <name>tfn_Draft_Follow_Up_Reminder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Draft MP Sent Date --></label>
+        <name>tfn_Draft_MP_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>tfn_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Follow Up Reminder --></label>
+        <name>tfn_Final_Follow_Up_Reminder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final MP Sent Date --></label>
+        <name>tfn_Final_MP_Sent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- MP Signed (No Date) --></label>
+        <name>tfn_MP_Signed_No_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Management Plan Signed Date --></label>
+        <name>tfn_Management_Plan_Signed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>tfn_Start_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Management Plan Tracking Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dates and follow up --></label>
+            <section>Dates and follow up</section>
+        </sections>
+        <sections>
+            <label><!-- Signed Document Link --></label>
+            <section>Signed Document Link</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

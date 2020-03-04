@@ -1,0 +1,95 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <meta /> 
+  <font face="Verdana, Helvetica, sans-serif" size="4" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><font><span style="background-color: rgb(255, 255, 255);"><img align="right" alt="" border="0" src="https://trustfornature--phoenix--c.documentforce.com/servlet/servlet.ImageServer?id=0155O000000OUTP&amp;oid=00D5O0000008vId" /></span></font></font> 
+  <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+    &nbsp; 
+  </div> 
+  <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+    &nbsp; 
+  </div> 
+  <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+    &nbsp; 
+  </div> 
+  <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+    &nbsp; 
+  </div> 
+  <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+    &nbsp; 
+  </div> 
+  <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+    &nbsp; 
+  </div> 
+  <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+    &nbsp; 
+  </div> 
+  <div style="color: rgb(0, 0, 0); font-family: arial;">
+    &nbsp; 
+  </div> 
+  <div> 
+   <font><font face="arial" size="4"><span style="background-color: rgb(255, 255, 255);">{{{Opportunity.Contact_Name__c}}}</span></font></font> 
+  </div> 
+  <div> 
+   <font><font face="arial" size="4"><span style="background-color: rgb(255, 255, 255);">{{{Opportunity.Street__c}}}</span></font></font> 
+  </div> 
+  <div> 
+   <font><font face="arial" size="4"><span style="background-color: rgb(255, 255, 255);">{{{Opportunity.Suburb_State__c}}}</span></font></font> 
+  </div> 
+  <div style="color: rgb(0, 0, 0); font-family: arial;">
+    &nbsp; 
+  </div> 
+  <div style="color: rgb(0, 0, 0); font-family: arial;">
+    &nbsp; 
+  </div> 
+  <div style="color: rgb(0, 0, 0); font-family: arial;"> 
+   <font size="4"><font face="Verdana, Helvetica, sans-serif" style="color: rgb(0, 0, 0); font-family: arial;"><font><span style="background-color: rgb(255, 255, 255);">Dear&nbsp;</span></font></font><font face="Verdana, Helvetica, sans-serif">{{{Opportunity.FirstName__c}}}</font><span style="color: rgb(0, 0, 0); font-family: Verdana, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">,</span></font> 
+  </div> 
+  <div> 
+   <div style="color: rgb(0, 0, 0); font-family: arial;">
+     &nbsp; 
+   </div> 
+   <div style="color: rgb(0, 0, 0); font-family: arial;"> 
+    <font face="Verdana, Helvetica, sans-serif" size="4">Thank you for your gift of&nbsp;<span style="background-color: rgb(255, 255, 255);">{{{Opportunity.Amount}}} on&nbsp;</span><span style="background-color: rgb(255, 255, 255);">{{{Opportunity.CloseDate}}}.&nbsp;</span></font> 
+   </div> 
+   <div style="color: rgb(0, 0, 0); font-family: arial;">
+     &nbsp; 
+   </div> 
+   <div style="color: rgb(0, 0, 0); font-family: arial;"> 
+    <font face="Verdana, Helvetica, sans-serif" size="4">We greatly appreciate your support!</font> 
+    <div>
+      &nbsp; 
+    </div> 
+   </div> 
+   <div style="color: rgb(0, 0, 0); font-family: arial;"> 
+    <font face="Verdana, Helvetica, sans-serif" size="4">From all of us at&nbsp;{{{Organization.Name}}}</font> 
+   </div> 
+   <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+     &nbsp; 
+   </div> 
+   <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+     &nbsp; 
+   </div> 
+   <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+     &nbsp; 
+   </div> 
+   <div> 
+    <font face="Verdana, Helvetica, sans-serif">All donations $2.00 and over are tax-deductible.</font> 
+   </div> 
+   <div>
+     &nbsp; 
+   </div> 
+   <div> 
+    <font face="Verdana, Helvetica, sans-serif" size="4" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Trust for Nature ABN 60 292 993 543</font> 
+   </div> 
+   <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+     &nbsp; 
+   </div> 
+   <div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">
+     &nbsp; 
+   </div> 
+  </div>
+ </body>
+</html>

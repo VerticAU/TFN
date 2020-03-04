@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Locality</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Localities</value>
+    </caseValues>
+    <fields>
+        <label><!-- Locality ID --></label>
+        <name>tfn_Locality_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locality Postcode --></label>
+        <name>tfn_Locality_Postcode__c</name>
+    </fields>
+    <layouts>
+        <layout>Locality Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

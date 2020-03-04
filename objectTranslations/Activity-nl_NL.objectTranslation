@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Use for grouping activities into broad categories for reporting --></help>
+        <label><!-- Activity Category --></label>
+        <name>loc03__Activity_Category__c</name>
+        <picklistValues>
+            <masterLabel>Amendment</masterLabel>
+            <translation><!-- Amendment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Due Diligence</masterLabel>
+            <translation><!-- Due Diligence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospecting</masterLabel>
+            <translation><!-- Prospecting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stewardship</masterLabel>
+            <translation><!-- Stewardship --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used for identifying the type of issue if applicable --></help>
+        <label><!-- Issue Type --></label>
+        <name>loc03__Issue_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alteration of any water feature</masterLabel>
+            <translation><!-- Alteration of any water feature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bridge construction</masterLabel>
+            <translation><!-- Bridge construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building energy generation facilities</masterLabel>
+            <translation><!-- Building energy generation facilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change in water rights use</masterLabel>
+            <translation><!-- Change in water rights use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changing points of diversion</masterLabel>
+            <translation><!-- Changing points of diversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial uses above and beyond</masterLabel>
+            <translation><!-- Commercial uses above and beyond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enlarging agricultural structures</masterLabel>
+            <translation><!-- Enlarging agricultural structures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enlarging residential structures</masterLabel>
+            <translation><!-- Enlarging residential structures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installing new utilities</masterLabel>
+            <translation><!-- Installing new utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locating/Relocating a building envelope</masterLabel>
+            <translation><!-- Locating/Relocating a building envelope --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mining/mineral lease</masterLabel>
+            <translation><!-- Mining/mineral lease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New major agricultural structures</masterLabel>
+            <translation><!-- New major agricultural structures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New recreational improvements</masterLabel>
+            <translation><!-- New recreational improvements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New residential structures</masterLabel>
+            <translation><!-- New residential structures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paving any road or parking area</masterLabel>
+            <translation><!-- Paving any road or parking area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property transfer</masterLabel>
+            <translation><!-- Property transfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replacing agricultural structures</masterLabel>
+            <translation><!-- Replacing agricultural structures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replacing residential structures</masterLabel>
+            <translation><!-- Replacing residential structures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road/trail construction</masterLabel>
+            <translation><!-- Road/trail construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use of septic effluent or sewage</masterLabel>
+            <translation><!-- Use of septic effluent or sewage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Violation</masterLabel>
+            <translation><!-- Violation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Used to indicate if this activity is referencing a violation. --></help>
+        <label><!-- Violation --></label>
+        <name>loc03__Violation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engagement Plan Task --></label>
+        <name>npsp__Engagement_Plan_Task__c</name>
+        <relationshipLabel><!-- Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Engagement Plan --></label>
+        <name>npsp__Engagement_Plan__c</name>
+        <relationshipLabel><!-- Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Smart Email Id --></label>
+        <name>wbsendit__Smart_Email_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Smart Email Message Id --></label>
+        <name>wbsendit__Smart_Email_Message_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Smart Email Status --></label>
+        <name>wbsendit__Smart_Email_Status__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Deed Allowance</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Deed Allowances</value>
+    </caseValues>
+    <fields>
+        <label><!-- Interest --></label>
+        <name>Interest__c</name>
+        <relationshipLabel><!-- Deed Allowances --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Allowance Type --></label>
+        <name>Restriction_Type__c</name>
+        <picklistValues>
+            <masterLabel>Dogs</masterLabel>
+            <translation><!-- Dogs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dwellings</masterLabel>
+            <translation><!-- Dwellings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing Dams</masterLabel>
+            <translation><!-- Existing Dams --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fallen Timber</masterLabel>
+            <translation><!-- Fallen Timber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fertiliser</masterLabel>
+            <translation><!-- Fertiliser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Further dam</masterLabel>
+            <translation><!-- Further dam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Livestock</masterLabel>
+            <translation><!-- Livestock --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deed Comments --></label>
+        <name>tfn_Deed_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deed Allowance ID --></label>
+        <name>tfn_Deed_Restriction_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Allowance Default Text --></label>
+        <name>tfn_Restriction_Description__c</name>
+        <picklistValues>
+            <masterLabel>And one further dam to be located within</masterLabel>
+            <translation><!-- And one further dam to be located within --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>And two further dams to be located within</masterLabel>
+            <translation><!-- And two further dams to be located within --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No default text</masterLabel>
+            <translation><!-- No default text --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One Dwelling</masterLabel>
+            <translation><!-- One Dwelling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other than one existing at the date of this Covenant</masterLabel>
+            <translation><!-- Other than one existing at the date of this Covenant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other than three existing at the date of this Covenant</masterLabel>
+            <translation><!-- Other than three existing at the date of this Covenant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other than two existing at the date of this Covenant</masterLabel>
+            <translation><!-- Other than two existing at the date of this Covenant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Save for livestock entering for the purpose of grazing consistent with the Covenant Objectives and pursuant to the Covenant Management Plan</masterLabel>
+            <translation><!-- Save for livestock entering for the purpose of grazing consistent with the Covenant Objectives and pursuant to the Covenant Management Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Save for the removal of fallen timber for the Owner&apos;s non-commercial use consistent wih the Covenant Objectives and pursuant to the Covenant Management Plan;</masterLabel>
+            <translation><!-- Save for the removal of fallen timber for the Owner&apos;s non-commercial use consistent wih the Covenant Objectives and pursuant to the Covenant Management Plan; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The application of fertilizer</masterLabel>
+            <translation><!-- The application of fertilizer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Two Dwellings</masterLabel>
+            <translation><!-- Two Dwellings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Two working dogs to assist with management of livestock</masterLabel>
+            <translation><!-- Two working dogs to assist with management of livestock --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Volume/Folio --></label>
+        <name>tfn_Volume_Folio__c</name>
+        <relationshipLabel><!-- Deed Allowances --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Deed Restriction Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deed Comments --></label>
+            <section>Deed Comments</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

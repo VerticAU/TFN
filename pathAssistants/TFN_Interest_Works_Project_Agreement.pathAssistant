@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>loc03__Easement_FeeTitle__c</entityName>
+    <fieldName>tfn_Interest_Stage__c</fieldName>
+    <masterLabel>TFN Interest Works Project Agreement</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>tfn_Interest_Completion_Date__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;tbc&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Completed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Executive_Team_Signing__c</fieldNames>
+        <fieldNames>Contract_Signed_TfN__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;tbc&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Develop</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Ended_Reason__c</fieldNames>
+        <picklistValueName>Ended</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>tfn_CFO_Signing__c</fieldNames>
+        <fieldNames>tfn_CEO_Signing__c</fieldNames>
+        <fieldNames>tfn_WPA_Signed_by_Landholder__c</fieldNames>
+        <fieldNames>Contract_Signed_TfN__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;tbc&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Execution</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>tfn_Interest_Start_Date__c</fieldNames>
+        <fieldNames>Regional_Officer_Assessed__c</fieldNames>
+        <info>&lt;ul&gt;&lt;li&gt;tbc&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Initiate</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>tfn_Work_Projects_Agreement</recordTypeName>
+</PathAssistant>

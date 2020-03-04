@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>TfN Deed Restriction Reserved Right Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deed Comments --></label>
+            <section>Deed Comments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN LOA Reserved Right Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- LOA Approvals --></label>
+            <section>LOA Approvals</section>
+        </sections>
+        <sections>
+            <label><!-- LOA Comments --></label>
+            <section>LOA Comments</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

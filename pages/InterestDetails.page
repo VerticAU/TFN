@@ -1,0 +1,107 @@
+<apex:page standardController="loc03__Easement_FeeTitle__c">
+    
+    <p></p>
+    <p></p>
+    <p></p>
+    
+    <apex:form >
+        <div align="center" draggable="false" >
+            <apex:commandButton onclick="window.print()" value="Print" style="background:LightBlue;width:150px;"/>
+        </div>
+    </apex:form>
+
+    <p></p>
+    <p></p>
+    <p></p>
+
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Property Details" collapsible="false">
+            <p><b>Address:</b> {!loc03__Easement_FeeTitle__c.Property_Address__c}</p> 
+            <p><b>Galaxias Property Number:</b> {!loc03__Easement_FeeTitle__c.loc03__Property__r.tfn_Galaxias_Property_Number__c}</p>
+            <p><b>Property Name:</b> {!loc03__Easement_FeeTitle__c.loc03__Property__r.Name}</p>
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+
+        
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Covenant Details" collapsible="false">
+            <p><b>Covenant Name:</b> {!loc03__Easement_FeeTitle__c.Name}</p> 
+            <p><b>Covenant Address:</b> {!loc03__Easement_FeeTitle__c.Property_Address__c}</p> 
+            <p><b>Interest Number:</b> {!loc03__Easement_FeeTitle__c.tfn_Interest_Site_ID__c}</p>
+            <p><b>Vic Bio Region:</b> {!loc03__Easement_FeeTitle__c.tfn_Vic_Bio_Region__c}</p> 
+            <p><b>IBRA Region:</b> {!loc03__Easement_FeeTitle__c.tfn_IBRA_Region__c}</p> 
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Covenant Primary Contact" collapsible="false">
+            <p><b>Name:</b> {!loc03__Easement_FeeTitle__c.loc03__Primary_Property_Contact__r.Name}</p>
+            <p><b>Contact Number:</b> {!loc03__Easement_FeeTitle__c.loc03__Primary_Property_Contact__r.Phone}</p>
+            <p><b>Email:</b> {!loc03__Easement_FeeTitle__c.loc03__Primary_Property_Contact__r.Email}</p>
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+    
+    
+   
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Covenant Area in Hectares" collapsible="false">
+            <p><b>Conservation Tier:</b> {!loc03__Easement_FeeTitle__c.tfn_Act_Conservation_Tier_TpI__c}</p>
+            <p><b>Modified Tier:</b> {!loc03__Easement_FeeTitle__c.tfn_Act_Modified_Tier_TpI__c}</p>
+            <p><b>Domestic Tier:</b> {!loc03__Easement_FeeTitle__c.tfn_Act_Domestic_Tier_TpI__c}</p>
+            <p><b>Natural Interest Tier:</b> {!loc03__Easement_FeeTitle__c.tfn_Act_Natural_Interest_Tier_TpI__c}</p>
+            <p><b>Sustainable Tier:</b> {!loc03__Easement_FeeTitle__c.tfn_Act_Sustainable_Tier_TpI__c}</p>
+            <p><b>Historic Place Tier:</b> {!loc03__Easement_FeeTitle__c.tfn_Act_Historic_Place_Tier_TpI__c}</p>
+            <p><b>Total Land Area:</b> {!loc03__Easement_FeeTitle__c.tfn_Total_Act_Land_Area__c}</p>
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+    
+     <apex:pageBlock >
+        <apex:pageBlockSection title="Conservation Details" collapsible="false">
+            <p><b>Covenantors vision:</b> {!loc03__Easement_FeeTitle__c.tfn_Covenantors_Vision__c}</p>
+            <p><b>Landowner achievements:</b> {!loc03__Easement_FeeTitle__c.tfn_Land_Owner_Achievements__c}</p>
+            <p><b>Conservation significance:</b> {!loc03__Easement_FeeTitle__c.tfn_Conservation_Significance__c}</p>
+            <p><b>Vegetation Description:</b> {!loc03__Easement_FeeTitle__c.tfn_Vegetation_Description__c}</p>
+            <p><b>Ecological Events:</b> {!loc03__Easement_FeeTitle__c.tfn_Other_Ecological_Events__c}</p>
+            <p><b>Prior land use:</b> {!loc03__Easement_FeeTitle__c.tfn_Prior_Land_Use__c}</p>
+            <p><b>Modifications:</b> {!loc03__Easement_FeeTitle__c.tfn_Modifications__c}</p>
+            <p><b>Fire history:</b> {!loc03__Easement_FeeTitle__c.tfn_Fire_History__c}</p>
+            <p><b>Cultural values:</b> {!loc03__Easement_FeeTitle__c.tfn_Cultural_Values__c}</p>
+            <p><b>Geological significance:</b> {!loc03__Easement_FeeTitle__c.tfn_Geological_Significance__c}</p>
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+
+    
+    
+    <!--
+    <apex:detail relatedList="true"/>
+    <apex:detail relatedList="false"/> 
+    
+    
+    
+    <apex:pageBlock>
+        <apex:pageBlockSection title="Interest Contacts">
+            <apex:relatedList list="loc03__CE_FT_Contact__c"/>
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+    
+    <apex:pageBlock value="{!tfn_Parcel__c}>
+        <apex:pageBlockTable title="Title Details" ">
+            <apex:column value=""/>
+            <apex:column value=""/>
+            <apex:column value=""/>
+            <apex:column value=""/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+    
+    <apex:detail relatedList="false"/>
+    
+    <apex:relatedList list="tfn_Deed_Restrictions__r" />
+    -->
+    
+    <apex:form >
+    <div align="center" draggable="false" >
+        <apex:commandButton onclick="window.print()" value="Print" style="background:LightBlue;width:150px;"/>
+    </div>
+    </apex:form>
+    
+</apex:page>

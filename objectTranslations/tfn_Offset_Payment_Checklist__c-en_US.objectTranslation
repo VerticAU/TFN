@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Offset Payment Checklist</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Offset Payment Checklists</value>
+    </caseValues>
+    <fields>
+        <label><!-- Interest --></label>
+        <name>Interest__c</name>
+        <relationshipLabel><!-- Offset Payment Checklists --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Action description is consistent with OMP or considered appropriate --></help>
+        <label><!-- Action Descriptions Notes --></label>
+        <name>tfn_Action_Descriptions_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Action description is consistent with OMP or considered appropriate --></help>
+        <label><!-- Action consistent with OMP? --></label>
+        <name>tfn_Action_consistent_with_OMP__c</name>
+    </fields>
+    <fields>
+        <help><!-- All management actions have been listed as completed --></help>
+        <label><!-- All Man. Actions Completed? --></label>
+        <name>tfn_All_Man_Actions_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Zones have been reported --></label>
+        <name>tfn_All_Zones_have_been_reported__c</name>
+    </fields>
+    <fields>
+        <label><!-- Docs Sent To Finance --></label>
+        <name>tfn_Docs_Sent_To_Finance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Any incomplete action (from previous year’s payment checklist) followed up with landowner. --></help>
+        <label><!-- Incomplete action followed up --></label>
+        <name>tfn_Incomplete_action_followed_up__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issues Identified --></label>
+        <name>tfn_Issues_Identified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issues Notes --></label>
+        <name>tfn_Issues_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landowner Met Obligations? --></label>
+        <name>tfn_Landowner_Met_Obligations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landowner Signature Comments --></label>
+        <name>tfn_Landowner_Signature_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Landowner has signed declaration --></help>
+        <label><!-- Landowner Signed --></label>
+        <name>tfn_Landowner_Signed__c</name>
+    </fields>
+    <fields>
+        <label><!-- MF Comments --></label>
+        <name>tfn_MF_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- MF Received  Satisfactory --></label>
+        <name>tfn_MF_Received_Satisfactory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Management Actions Completed --></label>
+        <name>tfn_Management_Actions_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Management Actions Notes --></label>
+        <name>tfn_Management_Actions_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offset Checklist ID --></label>
+        <name>tfn_Offset_Checklist_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Offset report forwarded to relevant Stewardship Officer --></help>
+        <label><!-- Offset Report Fwd Stewardship Officer --></label>
+        <name>tfn_Offset_Report_Fwd_Stewardship_Of__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offset Stewardship --></label>
+        <name>tfn_Offset_Stewardship__c</name>
+        <relationshipLabel><!-- Offset Payment Checklists --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Submitted at least one photo point for each zone --></help>
+        <label><!-- One photo point for each zone --></label>
+        <name>tfn_One_photo_point_for_each_zone__c</name>
+    </fields>
+    <fields>
+        <label><!-- PP Comments --></label>
+        <name>tfn_PP_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- PP Received  Satisfactory --></label>
+        <name>tfn_PP_Received_Satisfactory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photo Point Notes --></label>
+        <name>tfn_Photo_Point_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photo Points Location Notes --></label>
+        <name>tfn_Photo_Points_Location_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photo Points Quality Desc --></label>
+        <name>tfn_Photo_Points_Quality_Desc__c</name>
+    </fields>
+    <fields>
+        <help><!-- Photo points are clear enough quality to assess vegetation condition --></help>
+        <label><!-- Photo points are clear quality --></label>
+        <name>tfn_Photo_points_are_clear_quality__c</name>
+    </fields>
+    <fields>
+        <help><!-- Photos are in the same location or close enough to the same location as previous years --></help>
+        <label><!-- Photos location consistent --></label>
+        <name>tfn_Photos_location_consistent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Year Actions Comments --></label>
+        <name>tfn_Previous_Year_Actions_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Year&apos;s Issues Comments --></label>
+        <name>tfn_Previous_Year_s_Issues_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Previous Year&apos;s Issues Resolved --></label>
+        <name>tfn_Previous_Year_s_Issues_Resolved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommend releasing payment --></label>
+        <name>tfn_Recommend_releasing_payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommended by --></label>
+        <name>tfn_Recommended_by__c</name>
+        <relationshipLabel><!-- Offset Payment Checklists --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Registered Proprietor Checks Done? --></label>
+        <name>tfn_Registered_Proprietor_Checks_Done__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stewardship Officer Comments on Offset Report --></help>
+        <label><!-- Stewardship Officer Comments --></label>
+        <name>tfn_Stewardship_Officer_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weeds Comments --></label>
+        <name>tfn_Weeds_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weeds from OMP listed in Annual Report --></label>
+        <name>tfn_Weeds_from_OMP_listed_in_Annual_Rep__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zones Comments --></label>
+        <name>tfn_Zones_Comments__c</name>
+    </fields>
+    <layouts>
+        <layout>TfN Offset Payment Checklist Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Review --></label>
+            <section>Internal Review</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Checklist --></label>
+            <section>Payment Checklist</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

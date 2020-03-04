@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Conservation Tier</fullName>
+        <default>false</default>
+        <label>Conservation Tier</label>
+    </customValue>
+    <customValue>
+        <fullName>Modified Tier</fullName>
+        <default>false</default>
+        <label>Modified Tier</label>
+    </customValue>
+    <customValue>
+        <fullName>Domestic Tier</fullName>
+        <default>false</default>
+        <label>Domestic Tier</label>
+    </customValue>
+    <customValue>
+        <fullName>Natural Interest Tier</fullName>
+        <default>false</default>
+        <label>Natural Interest Tier</label>
+    </customValue>
+    <customValue>
+        <fullName>Sustainable Tier</fullName>
+        <default>false</default>
+        <label>Sustainable Tier</label>
+    </customValue>
+    <customValue>
+        <fullName>Historic Place Tier</fullName>
+        <default>false</default>
+        <label>Historic Place Tier</label>
+    </customValue>
+    <masterLabel>Tier (Global)</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

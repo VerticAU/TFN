@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>IBRA Region</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>IBRA Regions</value>
+    </caseValues>
+    <fields>
+        <label><!-- IBRA Region Area Percentage --></label>
+        <name>tfn_IBRA_Region_Area_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- IBRA Region Area --></label>
+        <name>tfn_IBRA_Region_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locality --></label>
+        <name>tfn_Locality__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

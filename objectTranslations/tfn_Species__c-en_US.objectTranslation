@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Species</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Species</value>
+    </caseValues>
+    <fields>
+        <label><!-- Abundance Scale --></label>
+        <name>tfn_Abundance_Scale__c</name>
+        <picklistValues>
+            <masterLabel>1-5% projective foliage cover or &lt;  1% many individuals</masterLabel>
+            <translation><!-- 1-5% projective foliage cover or &lt;  1% many individuals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26-50% projective foliage cover</masterLabel>
+            <translation><!-- 26-50% projective foliage cover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5-25% projective foliage cover or &lt;  5% numerous individuals</masterLabel>
+            <translation><!-- 5-25% projective foliage cover or &lt;  5% numerous individuals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>51-75% projective foliage cover</masterLabel>
+            <translation><!-- 51-75% projective foliage cover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>76-100% projective foliage cover</masterLabel>
+            <translation><!-- 76-100% projective foliage cover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;  1% projective foliage, few individuals</masterLabel>
+            <translation><!-- &lt;  1% projective foliage, few individuals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Entered</masterLabel>
+            <translation><!-- Not Entered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rare or solitary with negligible cover</masterLabel>
+            <translation><!-- Rare or solitary with negligible cover --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Active? --></label>
+        <name>tfn_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- All Discipline Codes --></label>
+        <name>tfn_All_Discipline_Codes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authority --></label>
+        <name>tfn_Authority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Common Name Synonym --></label>
+        <name>tfn_Common_Name_Synonym__c</name>
+    </fields>
+    <fields>
+        <label><!-- Common Name --></label>
+        <name>tfn_Common_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Threat status as defined for a species under the EPBC Act --></help>
+        <label><!-- EPCB Act Status --></label>
+        <name>tfn_EPCB_Act_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extract Date --></label>
+        <name>tfn_Extract_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Threat status as defined for a species under the Victorian FFG Act --></help>
+        <label><!-- FFG Act Status --></label>
+        <name>tfn_FFG_Act_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image Library Link --></label>
+        <name>tfn_Image_Library_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inactive Status --></label>
+        <name>tfn_Inactive_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Mod --></label>
+        <name>tfn_Last_Mod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Spec Number --></label>
+        <name>tfn_Legacy_Spec_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nvis Growthform --></label>
+        <name>tfn_Nvis_Growthform__c</name>
+    </fields>
+    <fields>
+        <label><!-- Origin --></label>
+        <name>tfn_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Discipline --></label>
+        <name>tfn_Primary_Discipline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Print Order Number --></label>
+        <name>tfn_Print_Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Restricted Flag --></label>
+        <name>tfn_Restricted_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scientific Name Synonym --></label>
+        <name>tfn_Scientific_Name_Synonym__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scientific Name --></label>
+        <name>tfn_Scientific_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>tfn_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spec Import ID --></label>
+        <name>tfn_Spec_Import_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species Type --></label>
+        <name>tfn_Species_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxon ID --></label>
+        <name>tfn_Taxon_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxon Type --></label>
+        <name>tfn_Taxon_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Treaties --></label>
+        <name>tfn_Treaties__c</name>
+    </fields>
+    <fields>
+        <help><!-- Threat status as defined for a species under the Victorian Rare or Threatened Species listing (DEWLP) --></help>
+        <label><!-- Victorian Advisory Status --></label>
+        <name>tfn_Victorian_Advisory_Status__c</name>
+    </fields>
+    <layouts>
+        <layout>TFN Species Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Identification Numbers --></label>
+            <section>Identification Numbers</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Letter of Approval</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Letters of Approval</value>
+    </caseValues>
+    <fields>
+        <label><!-- Interest --></label>
+        <name>Interest__c</name>
+        <relationshipLabel><!-- Letters of Approval --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- LOA Approved by Owner --></label>
+        <name>LOA_Approved_by_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOA Sent to Owner --></label>
+        <name>LOA_Sent_to_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOA Approver --></label>
+        <name>tfn_LOA_Approver__c</name>
+        <relationshipLabel><!-- Letters of Approval --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- LOA Category Default Text --></label>
+        <name>tfn_LOA_Category_Description__c</name>
+        <picklistValues>
+            <masterLabel>Ecological thinning in accordance with the covenant management plan.</masterLabel>
+            <translation><!-- Ecological thinning in accordance with the covenant management plan. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No default text</masterLabel>
+            <translation><!-- No default text --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permission to keep open existing tracks provided no new tracks are created;</masterLabel>
+            <translation><!-- Permission to keep open existing tracks provided no new tracks are created; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic grazing for biomass control in accordance with Covenant Management Plan.</masterLabel>
+            <translation><!-- Strategic grazing for biomass control in accordance with Covenant Management Plan. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The collection of seeds for personal use from trees, plants or grasses on the Land / Protected Land</masterLabel>
+            <translation><!-- The collection of seeds for personal use from trees, plants or grasses on the Land / Protected Land --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The emergency grazing of sheep/cattle in severe weather conditions;</masterLabel>
+            <translation><!-- The emergency grazing of sheep/cattle in severe weather conditions; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The harvesting of up to 10 trees every 5years. Only XX of these trees may be (Species).  All trees removed must be under 60 centimetres in diameter at breast height and must not contain hollows</masterLabel>
+            <translation><!-- The harvesting of up to 10 trees every 5years. Only XX of these trees may be (Species).  All trees removed must be under 60 centimetres in diameter at breast height and must not contain hollows --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The installation bee hives (10 maximum) within the covenanted area for the purpose of capturing feral bees.</masterLabel>
+            <translation><!-- The installation bee hives (10 maximum) within the covenanted area for the purpose of capturing feral bees. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The keeping of one dog to be kept under control at all times;</masterLabel>
+            <translation><!-- The keeping of one dog to be kept under control at all times; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The keeping of two dogs to be kept under control at all times;</masterLabel>
+            <translation><!-- The keeping of two dogs to be kept under control at all times; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The removal of fallen timber for the Owner’s non-commercial use consistent with the Covenant Objectives and pursuant to the Covenant Management Plan;</masterLabel>
+            <translation><!-- The removal of fallen timber for the Owner’s non-commercial use consistent with the Covenant Objectives and pursuant to the Covenant Management Plan; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The removal of fallen timber from the Land for firewood for personal use provided that good habitat for native fauna (hollow trees) is not removed.</masterLabel>
+            <translation><!-- The removal of fallen timber from the Land for firewood for personal use provided that good habitat for native fauna (hollow trees) is not removed. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The retention of the existing cat for the duration of its life provided that it is restricted to a dwelling or cattery between dusk and dawn;</masterLabel>
+            <translation><!-- The retention of the existing cat for the duration of its life provided that it is restricted to a dwelling or cattery between dusk and dawn; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The riding of horses through the Grazing Land and Protected Land provided that riding is restricted to existing tracks and that horses are not kept on the Grazing Land or Protected Land</masterLabel>
+            <translation><!-- The riding of horses through the Grazing Land and Protected Land provided that riding is restricted to existing tracks and that horses are not kept on the Grazing Land or Protected Land --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- LOA Category --></label>
+        <name>tfn_LOA_Category__c</name>
+        <picklistValues>
+            <masterLabel>Bee hives</masterLabel>
+            <translation><!-- Bee hives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cats</masterLabel>
+            <translation><!-- Cats --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dams</masterLabel>
+            <translation><!-- Dams --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dogs</masterLabel>
+            <translation><!-- Dogs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecological thinning</masterLabel>
+            <translation><!-- Ecological thinning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecotourism</masterLabel>
+            <translation><!-- Ecotourism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Firewood</masterLabel>
+            <translation><!-- Firewood --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grazing</masterLabel>
+            <translation><!-- Grazing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horse</masterLabel>
+            <translation><!-- Horse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horses keeping</masterLabel>
+            <translation><!-- Horses keeping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horses riding</masterLabel>
+            <translation><!-- Horses riding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kangaroo Contorl</masterLabel>
+            <translation><!-- Kangaroo Contorl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Exception</masterLabel>
+            <translation><!-- Other Exception --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Pet</masterLabel>
+            <translation><!-- Other Pet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poultry</masterLabel>
+            <translation><!-- Poultry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seed collection</masterLabel>
+            <translation><!-- Seed collection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stock</masterLabel>
+            <translation><!-- Stock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timber removal</masterLabel>
+            <translation><!-- Timber removal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Track</masterLabel>
+            <translation><!-- Track --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tree Harvesting</masterLabel>
+            <translation><!-- Tree Harvesting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- LOA Comments --></label>
+        <name>tfn_LOA_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOA Drafted --></label>
+        <name>tfn_LOA_Drafted__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOA ID --></label>
+        <name>tfn_LOA_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- LOA Status --></label>
+        <name>tfn_LOA_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approval</masterLabel>
+            <translation><!-- Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>tfn_Tier__c</name>
+    </fields>
+    <layouts>
+        <layout>Letter of Approval Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ecological Vegetation Class</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ecological Vegetation Classes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Active? --></label>
+        <name>tfn_Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Conservation Status --></help>
+        <label><!-- BCS --></label>
+        <name>tfn_BCS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bioregion No. --></label>
+        <name>tfn_Bioregion_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bioregion --></label>
+        <name>tfn_Bioregion__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Description --></label>
+        <name>tfn_EVC_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- EVC Group Name --></help>
+        <label><!-- EVC Group Name (Major Asset Category) --></label>
+        <name>tfn_EVC_Group_Name_MajorAsset__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Group No. --></label>
+        <name>tfn_EVC_Group_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Import ID --></label>
+        <name>tfn_EVC_Import_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Modified Area (Hectares) --></label>
+        <name>tfn_EVC_Modified_Area_Hectares__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Number --></label>
+        <name>tfn_EVC_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Name (Official) --></label>
+        <name>tfn_EVC_Official_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Protected Area (Hectares) --></label>
+        <name>tfn_EVC_Protected_Area_Hectares__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Sub-Group Name --></label>
+        <name>tfn_EVC_Sub_Group_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Total Area (Hectares) --></label>
+        <name>tfn_EVC_Total_Area_Hectares__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vegetation Quality --></label>
+        <name>tfn_Veg_Quality__c</name>
+    </fields>
+    <layouts>
+        <layout>TFN Ecological Vegetation Class Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

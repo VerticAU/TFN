@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ecological Community</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ecological Communities</value>
+    </caseValues>
+    <fields>
+        <label><!-- Act Status Effective Date --></label>
+        <name>tfn_Act_Status_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active? --></label>
+        <name>tfn_EC_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- EPBC Act Status --></label>
+        <name>tfn_EC_EPBC_Act_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- FFG Act Status --></label>
+        <name>tfn_EC_FFG_Act_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ecological Community ID --></label>
+        <name>tfn_EC_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- EC Imported Date --></label>
+        <name>tfn_EC_Imported_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ecological Community Description --></label>
+        <name>tfn_Ecological_Community_Description__c</name>
+    </fields>
+    <layouts>
+        <layout>Ecological Community Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Ecological Community Description --></label>
+            <section>Ecological Community Description</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

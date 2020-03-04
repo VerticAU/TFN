@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Funding Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Funding Projects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Funding Project Import ID --></label>
+        <name>tfn_Funding_Project_Import_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Funding Source Description --></label>
+        <name>tfn_Project_Funding_Source_Desc__c</name>
+    </fields>
+    <fields>
+        <help><!-- The status of vegetation quality at the time of assessment --></help>
+        <label><!-- Project Funding Source --></label>
+        <name>tfn_Project_Funding_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Status --></label>
+        <name>tfn_Project_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- T1 Exported Date --></label>
+        <name>tfn_T1_Exported_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- T1 Project ID --></label>
+        <name>tfn_T1_Project_ID__c</name>
+    </fields>
+    <layouts>
+        <layout>Funding Source Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Search Project Name --></label>
+            <section>Search Project Name</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

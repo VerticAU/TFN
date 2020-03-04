@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>ActivityDate</fullName>
+    </fields>
+    <fields>
+        <fullName>CallDisposition</fullName>
+    </fields>
+    <fields>
+        <fullName>CallDurationInSeconds</fullName>
+    </fields>
+    <fields>
+        <fullName>CallObject</fullName>
+    </fields>
+    <fields>
+        <fullName>CallType</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>IsRecurrence</fullName>
+    </fields>
+    <fields>
+        <fullName>IsReminderSet</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>RecurrenceInterval</fullName>
+    </fields>
+    <fields>
+        <fullName>RecurrenceRegeneratedType</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TaskSubtype</fullName>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>WhatId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WhoId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Subject_Restrict_to_Picklist_Values</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(
+NOT(contains(Subject,&quot;COG - Covenant Advice&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Covenant advice emergency&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Covenant assessment&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Covenant Complaint&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Covenant visit project&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - EOI for covenant&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - EOI for project&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Man Plan follow up&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Man Plan received&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Man Plan sent&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Reserve visit&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Stewardship visit&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Strategic CAP planning&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Welcome pack sent&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;DEV - eNewsletter&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;DEV - Event Invitation&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;DEV - Partnership&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;DEV - Property web listing&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;DEV - Website event listing&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;FR - Annual Report donor listing&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;FR - Annual Report donor listing - Approved&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;FR - Annual Report donor listing - Declined&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;FR - Bequest activity&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;FR - Gift enquiry&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;FR - New Donor Pack&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;FR - Phone Donation&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;FR - Resend Receipt&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;FR - Send Bequest Info&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;FR - Send BPP New Donor Pack&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;FR - Thanks for Gift&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;General - Enquiry&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;General - Follow Up&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;General - Introduction/Welcome&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;General - Prospect research&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;General - Update contact details&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;Legal - Draft Deed received&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;Legal - Deed enquiry&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;Legal - Draft Deed sent&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;Legal - Final Deed received&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;Legal - Final Deed sent&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;Offsets - Credit trade&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;Offsets - General enquiry&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;Offsets - Migrated Engagement&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;Offsets - Stewardship enquiry&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;Offsets - Stewardship visit&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;RF - Enquiry to purchase from TfN&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;RF - Enquiry to sell to TfN&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;RF - Property visit&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Letter&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Email&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;COG - Phone call&quot;))&amp;&amp;
+NOT(contains(Subject,&quot;RF - General enquiry&quot;))
+)</errorConditionFormula>
+        <errorDisplayField>Subject</errorDisplayField>
+        <errorMessage>You can only select predefined engagement items</errorMessage>
+    </validationRules>
+</CustomObject>

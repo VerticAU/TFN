@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bowerbird Link</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bowerbird Links</value>
+    </caseValues>
+    <fields>
+        <label><!-- Interest --></label>
+        <name>Interest__c</name>
+        <relationshipLabel><!-- Bowerbird Links --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BBL Number --></label>
+        <name>tfn_BBL_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Mostly for Photo points --></help>
+        <label><!-- Comments --></label>
+        <name>tfn_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document/Image Date --></label>
+        <name>tfn_Document_Image_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Status --></label>
+        <name>tfn_Document_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Document Type --></label>
+        <name>tfn_Document_Type__c</name>
+        <picklistValues>
+            <masterLabel>Covenant map</masterLabel>
+            <translation><!-- Covenant map --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MP Cover</masterLabel>
+            <translation><!-- MP Cover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photo Points Map</masterLabel>
+            <translation><!-- Photo Points Map --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photo point</masterLabel>
+            <translation><!-- Photo point --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey plan</masterLabel>
+            <translation><!-- Survey plan --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Copy link from Bowerbird and Paste here --></help>
+        <label><!-- Document URL (BB Link) --></label>
+        <name>tfn_Document_URL_BB_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- GPS Coordinates --></label>
+        <name>tfn_GPS_Coordinates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Photo Direction (If applies) --></label>
+        <name>tfn_Photo_Direction_If_applies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upload to MP Document? --></label>
+        <name>tfn_Upload_to_MP_Document__c</name>
+    </fields>
+    <layouts>
+        <layout>Bowerbird Link Layout</layout>
+        <sections>
+            <label><!-- Bowerbird Location URL --></label>
+            <section>Bowerbird Location URL</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Document Details --></label>
+            <section>Document Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>TFN 2 Year Phone Call Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Engagement Call - 2 Yr --></label>
+            <section>Engagement Call - 2 Yr</section>
+        </sections>
+        <sections>
+            <label><!-- Follow Up Details --></label>
+            <section>Follow Up Details</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoring Comments --></label>
+            <section>Monitoring Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Post Monitoring --></label>
+            <section>Post Monitoring</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN 5 Year Review Visit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Follow Up Details --></label>
+            <section>Follow Up Details</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoring Comments --></label>
+            <section>Monitoring Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Post Monitoring --></label>
+            <section>Post Monitoring</section>
+        </sections>
+        <sections>
+            <label><!-- Review Visit - 5 Yr --></label>
+            <section>Review Visit - 5 Yr</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN Adhoc Visit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Follow Up Details --></label>
+            <section>Follow Up Details</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Post Monitoring --></label>
+            <section>Post Monitoring</section>
+        </sections>
+        <sections>
+            <label><!-- Visit Details --></label>
+            <section>Visit Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN Assessment Visit Layout</layout>
+        <sections>
+            <label><!-- Assessment Visit --></label>
+            <section>Assessment Visit</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Follow Up Details --></label>
+            <section>Follow Up Details</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoring Comments --></label>
+            <section>Monitoring Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Post Monitoring --></label>
+            <section>Post Monitoring</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN Change of Owner Monitoring Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Follow Up Details --></label>
+            <section>Follow Up Details</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoring --></label>
+            <section>Monitoring</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoring Comments --></label>
+            <section>Monitoring Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Post Monitoring --></label>
+            <section>Post Monitoring</section>
+        </sections>
+        <sections>
+            <label><!-- Premonitoring --></label>
+            <section>Premonitoring</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN Ecological Event Monitoring Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Follow Up Details --></label>
+            <section>Follow Up Details</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoring --></label>
+            <section>Monitoring</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoring Comments --></label>
+            <section>Monitoring Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Post Monitoring --></label>
+            <section>Post Monitoring</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN Intensive Stewardship Monitoring Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Follow Up Details --></label>
+            <section>Follow Up Details</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoring --></label>
+            <section>Monitoring</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoring Comments --></label>
+            <section>Monitoring Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Post Monitoring --></label>
+            <section>Post Monitoring</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN Offset Stewardship Layout</layout>
+        <sections>
+            <label><!-- Commencement Visit --></label>
+            <section>Commencement Visit</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Offset Stewardship --></label>
+            <section>Offset Stewardship</section>
+        </sections>
+        <sections>
+            <label><!-- Offset Year 1 --></label>
+            <section>Offset Year 1</section>
+        </sections>
+        <sections>
+            <label><!-- Offset Year 10 --></label>
+            <section>Offset Year 10</section>
+        </sections>
+        <sections>
+            <label><!-- Offset Year 2 --></label>
+            <section>Offset Year 2</section>
+        </sections>
+        <sections>
+            <label><!-- Offset Year 3 --></label>
+            <section>Offset Year 3</section>
+        </sections>
+        <sections>
+            <label><!-- Offset Year 4 --></label>
+            <section>Offset Year 4</section>
+        </sections>
+        <sections>
+            <label><!-- Offset Year 5 --></label>
+            <section>Offset Year 5</section>
+        </sections>
+        <sections>
+            <label><!-- Offset Year 6 --></label>
+            <section>Offset Year 6</section>
+        </sections>
+        <sections>
+            <label><!-- Offset Year 7 --></label>
+            <section>Offset Year 7</section>
+        </sections>
+        <sections>
+            <label><!-- Offset Year 8 --></label>
+            <section>Offset Year 8</section>
+        </sections>
+        <sections>
+            <label><!-- Offset Year 9 --></label>
+            <section>Offset Year 9</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN Project Based Visit Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Follow Up Details --></label>
+            <section>Follow Up Details</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Post Monitoring --></label>
+            <section>Post Monitoring</section>
+        </sections>
+        <sections>
+            <label><!-- Visit Details --></label>
+            <section>Visit Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN Regular Stewardship Layout</layout>
+        <sections>
+            <label><!-- Assessment Visit --></label>
+            <section>Assessment Visit</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Engagement Call - 2 Yr --></label>
+            <section>Engagement Call - 2 Yr</section>
+        </sections>
+        <sections>
+            <label><!-- Follow Up Details --></label>
+            <section>Follow Up Details</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoring Comments --></label>
+            <section>Monitoring Comments</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Post Monitoring --></label>
+            <section>Post Monitoring</section>
+        </sections>
+        <sections>
+            <label><!-- Review Visit - 5 Yr --></label>
+            <section>Review Visit - 5 Yr</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN Subsequent 2 Year Phone Call Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Engagement Call - 2 Yr --></label>
+            <section>Engagement Call - 2 Yr</section>
+        </sections>
+        <sections>
+            <label><!-- Follow Up Details --></label>
+            <section>Follow Up Details</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoring Comments --></label>
+            <section>Monitoring Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Post Monitoring --></label>
+            <section>Post Monitoring</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN Volunteer Visit Monitoring Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Follow Up Details --></label>
+            <section>Follow Up Details</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoring --></label>
+            <section>Monitoring</section>
+        </sections>
+        <sections>
+            <label><!-- Monitoring Comments --></label>
+            <section>Monitoring Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Post Monitoring --></label>
+            <section>Post Monitoring</section>
+        </sections>
+        <sections>
+            <label><!-- Premonitoring --></label>
+            <section>Premonitoring</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

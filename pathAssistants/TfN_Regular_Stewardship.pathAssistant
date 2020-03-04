@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>loc03__Monitoring__c</entityName>
+    <fieldName>tfn_Regular_Stewardship_Year__c</fieldName>
+    <masterLabel>TfN Regular Stewardship</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;tbc&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Assessment</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;tbc&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Year 2 Call</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;tbc&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Year 5 Review</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>tfn_Regular_Stewardship</recordTypeName>
+</PathAssistant>

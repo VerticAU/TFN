@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>TfN Amended Offset Layout</layout>
+        <sections>
+            <label><!-- Conservation Information --></label>
+            <section>Conservation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Covenant Amendment --></label>
+            <section>Covenant Amendment</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Legal Activities --></label>
+            <section>Tracking Legal Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN Amended Regular Covenant Layout</layout>
+        <sections>
+            <label><!-- Conservation Information --></label>
+            <section>Conservation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Covenant Amendment --></label>
+            <section>Covenant Amendment</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Legal Activities --></label>
+            <section>Tracking Legal Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN Offset Covenant Layout</layout>
+        <sections>
+            <label><!-- Conservation Information --></label>
+            <section>Conservation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Legal Activities --></label>
+            <section>Tracking Legal Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN RF Acquisition Layout</layout>
+        <sections>
+            <label><!-- Acquisition Financials --></label>
+            <section>Acquisition Financials</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Property attributes --></label>
+            <section>Property attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Acquisition Activities --></label>
+            <section>Tracking Acquisition Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN RF Disposal Layout</layout>
+        <sections>
+            <label><!-- Disposal Financials --></label>
+            <section>Disposal Financials</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Property attributes --></label>
+            <section>Property attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Disposal Activities --></label>
+            <section>Tracking Disposal Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN Regular Covenant Layout</layout>
+        <sections>
+            <label><!-- Conservation Information --></label>
+            <section>Conservation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Quick Checks --></label>
+            <section>Quick Checks</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Legal Activities --></label>
+            <section>Tracking Legal Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN Reserve Layout</layout>
+        <sections>
+            <label><!-- Conservation Information --></label>
+            <section>Conservation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Legal Activities --></label>
+            <section>Tracking Legal Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN Standard Offset Covenant Layout</layout>
+        <sections>
+            <label><!-- Conservation Information --></label>
+            <section>Conservation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Legal Activities --></label>
+            <section>Tracking Legal Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN Standard RF Acquisition Layout</layout>
+        <sections>
+            <label><!-- Acquisition Financials --></label>
+            <section>Acquisition Financials</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Property attributes --></label>
+            <section>Property attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Acquisition Activities --></label>
+            <section>Tracking Acquisition Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN Standard RF Disposal Layout</layout>
+        <sections>
+            <label><!-- Disposal Financials --></label>
+            <section>Disposal Financials</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Property attributes --></label>
+            <section>Property attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Disposal Activities --></label>
+            <section>Tracking Disposal Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN Standard Regular Covenant Layout</layout>
+        <sections>
+            <label><!-- Conservation Information --></label>
+            <section>Conservation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Legal Activities --></label>
+            <section>Tracking Legal Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN Standard Reserve Layout</layout>
+        <sections>
+            <label><!-- Conservation Information --></label>
+            <section>Conservation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Legal Activities --></label>
+            <section>Tracking Legal Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN Standard WPA Layout</layout>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Legal Activities --></label>
+            <section>Tracking Legal Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+        <sections>
+            <label><!-- WPA Fields --></label>
+            <section>WPA Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TfN WPA Layout</layout>
+        <sections>
+            <label><!-- Interest Information --></label>
+            <section>Interest Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interest Size --></label>
+            <section>Interest Size</section>
+        </sections>
+        <sections>
+            <label><!-- NatureBase Legacy Fields --></label>
+            <section>NatureBase Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Property Location --></label>
+            <section>Property Location</section>
+        </sections>
+        <sections>
+            <label><!-- Tracking Legal Activities --></label>
+            <section>Tracking Legal Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+        <sections>
+            <label><!-- WPA Fields --></label>
+            <section>WPA Fields</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

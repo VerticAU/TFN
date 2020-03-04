@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EVC VQA</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EVC VQAs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Interest --></label>
+        <name>Interest__c</name>
+        <relationshipLabel><!-- EVC VQAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assessment Date --></label>
+        <name>tfn_AE_Assessment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Condition --></label>
+        <name>tfn_AE_EVC_Condition__c</name>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate</masterLabel>
+            <translation><!-- Moderate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Good</masterLabel>
+            <translation><!-- Very Good --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EVC Trend --></label>
+        <name>tfn_AE_EVC_Trend__c</name>
+        <picklistValues>
+            <masterLabel>Minor Decline</masterLabel>
+            <translation><!-- Minor Decline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor Improvement</masterLabel>
+            <translation><!-- Minor Improvement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Significant Improvement</masterLabel>
+            <translation><!-- Significant Improvement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Significant decline</masterLabel>
+            <translation><!-- Significant decline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stable</masterLabel>
+            <translation><!-- Stable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vegetation Quality --></label>
+        <name>tfn_AE_Vegetation_Quality__c</name>
+    </fields>
+    <fields>
+        <label><!-- Canopy Cover Cmnts --></label>
+        <name>tfn_Canopy_Cover_Cmnts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Canopy Cover VQA --></label>
+        <name>tfn_Canopy_Cover_VQA__c</name>
+        <picklistValues>
+            <masterLabel>-0</masterLabel>
+            <translation><!-- -0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0.5</masterLabel>
+            <translation><!-- 0.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EVC Asset --></label>
+        <name>tfn_EVC_Asset__c</name>
+        <relationshipLabel><!-- EVC VQAs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Lack of Weeds Cmnts --></label>
+        <name>tfn_Lack_of_Weeds_Cmnts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lack of Weeds VQA --></label>
+        <name>tfn_Lack_of_Weeds_VQA__c</name>
+        <picklistValues>
+            <masterLabel>-0</masterLabel>
+            <translation><!-- -0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Large Trees Cmnts --></label>
+        <name>tfn_Large_Trees_Cmnts__c</name>
+    </fields>
+    <fields>
+        <help><!-- value -0 (negative zero) means Not Applicable --></help>
+        <label><!-- Large Trees VQA --></label>
+        <name>tfn_Large_Trees_VQA__c</name>
+        <picklistValues>
+            <masterLabel>-0</masterLabel>
+            <translation><!-- -0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Logs Cmnts --></label>
+        <name>tfn_Logs_Cmnts__c</name>
+    </fields>
+    <fields>
+        <help><!-- value -0 (negative zero) means Not Applicable --></help>
+        <label><!-- Logs VQA --></label>
+        <name>tfn_Logs_VQA__c</name>
+        <picklistValues>
+            <masterLabel>-0</masterLabel>
+            <translation><!-- -0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Organic Litter Cmnts --></label>
+        <name>tfn_Organic_Litter_Cmnts__c</name>
+    </fields>
+    <fields>
+        <help><!-- value -0 (negative zero) means Not Applicable --></help>
+        <label><!-- Organic Litter VQA --></label>
+        <name>tfn_Organic_Litter_VQA__c</name>
+        <picklistValues>
+            <masterLabel>-0</masterLabel>
+            <translation><!-- -0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Recruitment Cmnts --></label>
+        <name>tfn_Recruitment_Cmnts__c</name>
+    </fields>
+    <fields>
+        <help><!-- value -0 (negative zero) means Not Applicable --></help>
+        <label><!-- Recruitment VQA --></label>
+        <name>tfn_Recruitment_VQA__c</name>
+        <picklistValues>
+            <masterLabel>-0</masterLabel>
+            <translation><!-- -0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Trend Condition Comments --></label>
+        <name>tfn_Trend_Condition_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Understorey Cmnts --></label>
+        <name>tfn_Understorey_Cmnts__c</name>
+    </fields>
+    <fields>
+        <help><!-- value -0 (negative zero) means Not Applicable --></help>
+        <label><!-- Understorey VQA --></label>
+        <name>tfn_Understorey_VQA__c</name>
+        <picklistValues>
+            <masterLabel>-0</masterLabel>
+            <translation><!-- -0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- VQA Comments --></label>
+        <name>tfn_VQA_Comments__c</name>
+    </fields>
+    <layouts>
+        <layout>EVC Assessment Event Layout</layout>
+        <sections>
+            <label><!-- Conservation Asset Search --></label>
+            <section>Conservation Asset Search</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Vegetation Quality Assessment --></label>
+            <section>Vegetation Quality Assessment</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

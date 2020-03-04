@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Location Testing</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Location Testing</value>
+    </caseValues>
+    <fields>
+        <label><!-- Locality --></label>
+        <name>Locality__c</name>
+        <relationshipLabel><!-- Location Testing --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- VicBio Region --></label>
+        <name>VicBio_Region__c</name>
+        <relationshipLabel><!-- Location Testing --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

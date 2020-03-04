@@ -1,0 +1,1535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>TFN_Management_Action_Lightning_Layout</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>TfN_Management_Action_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>TfN_Management_Action_Compact_Layout</fullName>
+        <fields>tfn_Interest__c</fields>
+        <fields>tfn_Threat_Name__c</fields>
+        <fields>Action_Name__c</fields>
+        <fields>tfn_Threat_Managemen_tAction_Priority__c</fields>
+        <fields>Name</fields>
+        <label>TfN Management Action Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Action_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Action Name</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Apply ecological burning</fullName>
+                    <default>false</default>
+                    <label>Apply ecological burning</label>
+                </value>
+                <value>
+                    <fullName>Control/reduce human disturbance</fullName>
+                    <default>false</default>
+                    <label>Control/reduce human disturbance</label>
+                </value>
+                <value>
+                    <fullName>Control introduced animals to reduce competition</fullName>
+                    <default>false</default>
+                    <label>Control introduced animals to reduce competition</label>
+                </value>
+                <value>
+                    <fullName>Control introduced animals to reduce grazing</fullName>
+                    <default>false</default>
+                    <label>Control introduced animals to reduce grazing</label>
+                </value>
+                <value>
+                    <fullName>Control introduced animals to reduce predation</fullName>
+                    <default>false</default>
+                    <label>Control introduced animals to reduce predation</label>
+                </value>
+                <value>
+                    <fullName>Control native animals to reduce competition</fullName>
+                    <default>false</default>
+                    <label>Control native animals to reduce competition</label>
+                </value>
+                <value>
+                    <fullName>Control native animals to reduce grazing</fullName>
+                    <default>false</default>
+                    <label>Control native animals to reduce grazing</label>
+                </value>
+                <value>
+                    <fullName>Erosion control</fullName>
+                    <default>false</default>
+                    <label>Erosion control</label>
+                </value>
+                <value>
+                    <fullName>Manage environmental weeds</fullName>
+                    <default>false</default>
+                    <label>Manage environmental weeds</label>
+                </value>
+                <value>
+                    <fullName>Manage high threat environmental weeds</fullName>
+                    <default>false</default>
+                    <label>Manage high threat environmental weeds</label>
+                </value>
+                <value>
+                    <fullName>Manage Plant Pathogens</fullName>
+                    <default>false</default>
+                    <label>Manage Plant Pathogens</label>
+                </value>
+                <value>
+                    <fullName>Prevent habitat fragmentation</fullName>
+                    <default>false</default>
+                    <label>Prevent habitat fragmentation</label>
+                </value>
+                <value>
+                    <fullName>Prevent habitat loss</fullName>
+                    <default>false</default>
+                    <label>Prevent habitat loss</label>
+                </value>
+                <value>
+                    <fullName>Protect habitat from fire</fullName>
+                    <default>false</default>
+                    <label>Protect habitat from fire</label>
+                </value>
+                <value>
+                    <fullName>Protect habitat from fire prevention activities</fullName>
+                    <default>false</default>
+                    <label>Protect habitat from fire prevention activities</label>
+                </value>
+                <value>
+                    <fullName>Protect habitat from fire suppression activities</fullName>
+                    <default>false</default>
+                    <label>Protect habitat from fire suppression activities</label>
+                </value>
+                <value>
+                    <fullName>Restore habitat</fullName>
+                    <default>false</default>
+                    <label>Restore habitat</label>
+                </value>
+                <value>
+                    <fullName>Undertake disturbance activities to maintain habitat and/or manage biomass</fullName>
+                    <default>false</default>
+                    <label>Undertake disturbance activities to maintain habitat and/or manage biomass</label>
+                </value>
+                <value>
+                    <fullName>Weed Control</fullName>
+                    <default>false</default>
+                    <label>Weed Control</label>
+                </value>
+                <value>
+                    <fullName>Inkweed Control</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Inkweed Control</label>
+                </value>
+                <value>
+                    <fullName>St John&apos;s Wort Control</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>St John&apos;s Wort Control</label>
+                </value>
+                <value>
+                    <fullName>Thistle Control</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Thistle Control</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfN_Man_Action_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Man Action Description</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>tfn_Action_Objective__c</fullName>
+        <externalId>false</externalId>
+        <label>Action Objective</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>TBC</fullName>
+                    <default>false</default>
+                    <label>TBC</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Still to be determined</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Still to be determined</label>
+                </value>
+                <value>
+                    <fullName>three</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>three</label>
+                </value>
+                <value>
+                    <fullName>two</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>two</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_Action_Outcome_Descriotion__c</fullName>
+        <externalId>false</externalId>
+        <label>Action Outcome Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Action_Outcome__c</fullName>
+        <externalId>false</externalId>
+        <label>Action Outcome</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Achieved Objective</fullName>
+                    <default>false</default>
+                    <label>Achieved Objective</label>
+                </value>
+                <value>
+                    <fullName>Did Not Achieve Objective</fullName>
+                    <default>false</default>
+                    <label>Did Not Achieve Objective</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_EVC_Major_Asset_Category__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Targeted_Species__r.tfn_Major_Asset_Category__c</formula>
+        <label>EVC Major Asset Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_EVC_Name_Official__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Targeted_Species__r.tfn_EVC_Name_Official__c</formula>
+        <label>EVC Name (Official)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Interest__c</fullName>
+        <externalId>false</externalId>
+        <label>Interest</label>
+        <referenceTo>loc03__Easement_FeeTitle__c</referenceTo>
+        <relationshipName>Management_Actions</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>tfn_Mangement_Action_ID__c</fullName>
+        <displayFormat>MA{00000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Mangement Action ID</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Objective_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Objective Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Species_Common_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Targeted_Species__r.tfn_Common_Name__c</formula>
+        <label>Species Common Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Species_Scientific_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Targeted_Species__r.tfn_Species__r.Name</formula>
+        <label>Species Scientific Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Target_Species_Common_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Targeted_Species__r.tfn_Common_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Target Species Common Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Targeted_Species__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the flora or fauna or EC, on this and/or next door property, that is posing a threat to your conservation asset. e.g. a feral cat for endangered mouse!!</inlineHelpText>
+        <label>Targeted Threat</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>tfn_Species_EVC_Observation__c.tfn_Interest__c</field>
+                <operation>equals</operation>
+                <valueField>$Source.tfn_Interest__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>tfn_Species_EVC_Observation__c</referenceTo>
+        <relationshipLabel>Threats and Management Actions</relationshipLabel>
+        <relationshipName>Management_Actions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Threat_Class__c</fullName>
+        <externalId>false</externalId>
+        <label>Threat Class</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Altered water regime</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Altered water regime</label>
+                </value>
+                <value>
+                    <fullName>Altered physical form</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Altered physical form</label>
+                </value>
+                <value>
+                    <fullName>Poor water quality</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Poor water quality</label>
+                </value>
+                <value>
+                    <fullName>Degraded habitats</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Degraded habitats</label>
+                </value>
+                <value>
+                    <fullName>Reduced connectivity</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Reduced connectivity</label>
+                </value>
+                <value>
+                    <fullName>Soil disturbance</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Soil disturbance</label>
+                </value>
+                <value>
+                    <fullName>Competition</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Competition</label>
+                </value>
+                <value>
+                    <fullName>Herbivory</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Herbivory</label>
+                </value>
+                <value>
+                    <fullName>Predation</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Predation</label>
+                </value>
+                <value>
+                    <fullName>Trampling</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Trampling</label>
+                </value>
+                <value>
+                    <fullName>Genetic decline</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Genetic decline</label>
+                </value>
+                <value>
+                    <fullName>Disease</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Disease</label>
+                </value>
+                <value>
+                    <fullName>Parasitism</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Parasitism</label>
+                </value>
+                <value>
+                    <fullName>Inappropriate fire regime</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Inappropriate fire regime</label>
+                </value>
+                <value>
+                    <fullName>Human disturbance</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Human disturbance</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_Threat_Current_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Threat Current Level</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Very High</fullName>
+                    <default>false</default>
+                    <label>Very High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_Threat_Descripti__c</fullName>
+        <externalId>false</externalId>
+        <label>Threat Description</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>tfn_Threat_Managemen_tAction_Priority__c</fullName>
+        <externalId>false</externalId>
+        <label>Threat Management Action Priority</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Very High</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Very High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_Threat_Management_Action_Assignee__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Threat Management Action Assignee</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>tfn_Threat_Management_Action_Assignee</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Threat_Management_Action_Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Threat Management Action Due Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Threat_Management_Action_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Threat Management Action Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Active</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Active</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_Threat_Name__c</fullName>
+        <description>Threats - dependent picklist related to Threat Class</description>
+        <externalId>false</externalId>
+        <label>Threat Name</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>tfn_Threat_Class__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Acidification</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Acidification</label>
+                </value>
+                <value>
+                    <fullName>Altered flow regimes (river and estuary) - low/high/zero flows, variability and</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Altered flow regimes (river and estuary) - low/high/zero flows, variability and</label>
+                </value>
+                <value>
+                    <fullName>Altered marine exchange - estuary opening regime</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Altered marine exchange - estuary opening regime</label>
+                </value>
+                <value>
+                    <fullName>Altered wetland form – depth, shape, bathymetry, dredging, channel alteration</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Altered wetland form – depth, shape, bathymetry, dredging, channel alteration</label>
+                </value>
+                <value>
+                    <fullName>Bacterial or fungal infections</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Bacterial or fungal infections</label>
+                </value>
+                <value>
+                    <fullName>Bank instability (river and estuary) - erosion, slumping, livestock access</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Bank instability (river and estuary) - erosion, slumping, livestock access</label>
+                </value>
+                <value>
+                    <fullName>Barriers to estuarine biota</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Barriers to estuarine biota</label>
+                </value>
+                <value>
+                    <fullName>Bed instability (river) - deepening, knickpoints</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Bed instability (river) - deepening, knickpoints</label>
+                </value>
+                <value>
+                    <fullName>Biota decline</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Biota decline</label>
+                </value>
+                <value>
+                    <fullName>Changed water regime (wetland) - seasonality, duration, frequency</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Changed water regime (wetland) - seasonality, duration, frequency</label>
+                </value>
+                <value>
+                    <fullName>Compaction – (human, vehicles, introduced fauna)</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Compaction – (human, vehicles, introduced fauna)</label>
+                </value>
+                <value>
+                    <fullName>Damage from tourism and recreation</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Damage from tourism and recreation</label>
+                </value>
+                <value>
+                    <fullName>Degraded estuarine vegetation</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Degraded estuarine vegetation</label>
+                </value>
+                <value>
+                    <fullName>Degraded riparian vegetation – structure, large trees</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Degraded riparian vegetation – structure, large trees</label>
+                </value>
+                <value>
+                    <fullName>Degraded terrestrial vegetation</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Degraded terrestrial vegetation</label>
+                </value>
+                <value>
+                    <fullName>Degraded water quality (estuary) -dissolved oxygen, turbidity, pH, chlorophyll a</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Degraded water quality (estuary) -dissolved oxygen, turbidity, pH, chlorophyll a</label>
+                </value>
+                <value>
+                    <fullName>Degraded water quality (wetland) - altered salinity regime, nutrient enrichment</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Degraded water quality (wetland) - altered salinity regime, nutrient enrichment</label>
+                </value>
+                <value>
+                    <fullName>Degraded water quality river - dissolved oxygen, conductivity, pH, phosphorus, nitrogen, turbidity, temperature, black water, nutrients, salinisation</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Degraded water quality river - dissolved oxygen, conductivity, pH, phosphorus, nitrogen, turbidity, temperature, black water, nutrients, salinisation</label>
+                </value>
+                <value>
+                    <fullName>Degraded wetland buffer vegetation</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Degraded wetland buffer vegetation</label>
+                </value>
+                <value>
+                    <fullName>Destruction of flora or fauna habitat</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Destruction of flora or fauna habitat</label>
+                </value>
+                <value>
+                    <fullName>Disease caused by pathogens</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Disease caused by pathogens</label>
+                </value>
+                <value>
+                    <fullName>Disturbance of acid sulphate soils</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Disturbance of acid sulphate soils</label>
+                </value>
+                <value>
+                    <fullName>Dumping – soil, rubbish</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Dumping – soil, rubbish</label>
+                </value>
+                <value>
+                    <fullName>Effluent – agricultural and industrial effluent</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Effluent – agricultural and industrial effluent</label>
+                </value>
+                <value>
+                    <fullName>Erosion</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Erosion</label>
+                </value>
+                <value>
+                    <fullName>Fauna</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Fauna</label>
+                </value>
+                <value>
+                    <fullName>Flora</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Flora</label>
+                </value>
+                <value>
+                    <fullName>Fragmentation barriers - to movement and/or reproduction</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Fragmentation barriers - to movement and/or reproduction</label>
+                </value>
+                <value>
+                    <fullName>Fragmentation increased isolation - of remaining fragments (and of gene pools)</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Fragmentation increased isolation - of remaining fragments (and of gene pools)</label>
+                </value>
+                <value>
+                    <fullName>Fragmentation reduction in size - remaining fragments</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Fragmentation reduction in size - remaining fragments</label>
+                </value>
+                <value>
+                    <fullName>Frequency of fire –high/low for ecological processes</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Frequency of fire –high/low for ecological processes</label>
+                </value>
+                <value>
+                    <fullName>Fungal parasites</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Fungal parasites</label>
+                </value>
+                <value>
+                    <fullName>Hybridisation</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Hybridisation</label>
+                </value>
+                <value>
+                    <fullName>In-stream barriers</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>In-stream barriers</label>
+                </value>
+                <value>
+                    <fullName>Inadequate governance</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Inadequate governance</label>
+                </value>
+                <value>
+                    <fullName>Inappropriate animal harvesting – hunting, fishing</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Inappropriate animal harvesting – hunting, fishing</label>
+                </value>
+                <value>
+                    <fullName>Inappropriate land management practices</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Inappropriate land management practices</label>
+                </value>
+                <value>
+                    <fullName>Inappropriate plant harvesting – firewood collection, timber harvesting, native vegetation clearance</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Inappropriate plant harvesting – firewood collection, timber harvesting, native vegetation clearance</label>
+                </value>
+                <value>
+                    <fullName>Intensity of fire –high/low for ecological processes</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Intensity of fire –high/low for ecological processes</label>
+                </value>
+                <value>
+                    <fullName>Introduced fauna - compete for food, breeding/nesting sites, territory</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Introduced fauna - compete for food, breeding/nesting sites, territory</label>
+                </value>
+                <value>
+                    <fullName>Introduced fauna - graze or browse plants/native vegetation</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Introduced fauna - graze or browse plants/native vegetation</label>
+                </value>
+                <value>
+                    <fullName>Introduced fauna - trample plants/native vegetation causing vegetative damage and loss</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Introduced fauna - trample plants/native vegetation causing vegetative damage and loss</label>
+                </value>
+                <value>
+                    <fullName>Introduced flora- compete for light, water, nutrients and space</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Introduced flora- compete for light, water, nutrients and space</label>
+                </value>
+                <value>
+                    <fullName>Introduced predators (fauna)</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Introduced predators (fauna)</label>
+                </value>
+                <value>
+                    <fullName>Knowledge limitations</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Knowledge limitations</label>
+                </value>
+                <value>
+                    <fullName>Limited capacity</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Limited capacity</label>
+                </value>
+                <value>
+                    <fullName>Loss of hollow bearing trees</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Loss of hollow bearing trees</label>
+                </value>
+                <value>
+                    <fullName>Loss of important habitat features - shelter/breeding sites, pollinators, symbionts etc.</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Loss of important habitat features - shelter/breeding sites, pollinators, symbionts etc.</label>
+                </value>
+                <value>
+                    <fullName>Loss of in-stream habitat – large wood, sedimentation</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Loss of in-stream habitat – large wood, sedimentation</label>
+                </value>
+                <value>
+                    <fullName>Low seed viability</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Low seed viability</label>
+                </value>
+                <value>
+                    <fullName>Native fauna - trample plants/native vegetation causing vegetative damage and loss</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Native fauna - trample plants/native vegetation causing vegetative damage and loss</label>
+                </value>
+                <value>
+                    <fullName>Native predators (fauna)</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Native predators (fauna)</label>
+                </value>
+                <value>
+                    <fullName>Nutrient decline</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Nutrient decline</label>
+                </value>
+                <value>
+                    <fullName>Organic matter decline</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Organic matter decline</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Other pollution events</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Other pollution events</label>
+                </value>
+                <value>
+                    <fullName>Overabundant native fauna</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Overabundant native fauna</label>
+                </value>
+                <value>
+                    <fullName>Overabundant native fauna - compete for food, breeding/nesting sites, territory</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Overabundant native fauna - compete for food, breeding/nesting sites, territory</label>
+                </value>
+                <value>
+                    <fullName>Overabundant native flora - compete for light, water, nutrients and space</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Overabundant native flora - compete for light, water, nutrients and space</label>
+                </value>
+                <value>
+                    <fullName>Parasites</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Parasites</label>
+                </value>
+                <value>
+                    <fullName>Phytophthora cinnamomi</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Phytophthora cinnamomi</label>
+                </value>
+                <value>
+                    <fullName>Pugging (introduced fauna (livestock, invasive fauna))</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Pugging (introduced fauna (livestock, invasive fauna))</label>
+                </value>
+                <value>
+                    <fullName>Reduced extent (wetland and estuary) – area, estuary barriers, wetland drainage</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Reduced extent (wetland and estuary) – area, estuary barriers, wetland drainage</label>
+                </value>
+                <value>
+                    <fullName>Reduced floodplain connectivity</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Reduced floodplain connectivity</label>
+                </value>
+                <value>
+                    <fullName>Reduced riparian connectivity: vegetation width, fragmentation, overhang</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Reduced riparian connectivity: vegetation width, fragmentation, overhang</label>
+                </value>
+                <value>
+                    <fullName>Risk of bushfire –to communities and assets</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Risk of bushfire –to communities and assets</label>
+                </value>
+                <value>
+                    <fullName>Salinity</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Salinity</label>
+                </value>
+                <value>
+                    <fullName>Sedimentation/siltation</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Sedimentation/siltation</label>
+                </value>
+                <value>
+                    <fullName>Thermal water pollution – dam releases, industrial coolant</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Thermal water pollution – dam releases, industrial coolant</label>
+                </value>
+                <value>
+                    <fullName>Vegetation clearance</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Vegetation clearance</label>
+                </value>
+                <value>
+                    <fullName>Vehicle damage – animal deaths, soil and vegetation damage</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Vehicle damage – animal deaths, soil and vegetation damage</label>
+                </value>
+                <value>
+                    <fullName>Viruses</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Viruses</label>
+                </value>
+                <value>
+                    <fullName>Water logging</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Water logging</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Genetic decline</controllingFieldValue>
+                <valueName>Hybridisation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Genetic decline</controllingFieldValue>
+                <valueName>Low seed viability</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disease</controllingFieldValue>
+                <valueName>Bacterial or fungal infections</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disease</controllingFieldValue>
+                <valueName>Disease caused by pathogens</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disease</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disease</controllingFieldValue>
+                <valueName>Parasites</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disease</controllingFieldValue>
+                <valueName>Phytophthora cinnamomi</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Disease</controllingFieldValue>
+                <valueName>Viruses</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Parasitism</controllingFieldValue>
+                <valueName>Fauna</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Parasitism</controllingFieldValue>
+                <valueName>Flora</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Parasitism</controllingFieldValue>
+                <valueName>Fungal parasites</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Inappropriate fire regime</controllingFieldValue>
+                <valueName>Frequency of fire –high/low for ecological processes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Inappropriate fire regime</controllingFieldValue>
+                <valueName>Intensity of fire –high/low for ecological processes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Inappropriate fire regime</controllingFieldValue>
+                <valueName>Risk of bushfire –to communities and assets</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human disturbance</controllingFieldValue>
+                <valueName>Damage from tourism and recreation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human disturbance</controllingFieldValue>
+                <valueName>Dumping – soil, rubbish</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human disturbance</controllingFieldValue>
+                <valueName>Inadequate governance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human disturbance</controllingFieldValue>
+                <valueName>Inappropriate animal harvesting – hunting, fishing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human disturbance</controllingFieldValue>
+                <valueName>Inappropriate land management practices</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human disturbance</controllingFieldValue>
+                <valueName>Inappropriate plant harvesting – firewood collection, timber harvesting, native vegetation clearance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human disturbance</controllingFieldValue>
+                <valueName>Knowledge limitations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human disturbance</controllingFieldValue>
+                <valueName>Limited capacity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Human disturbance</controllingFieldValue>
+                <valueName>Vehicle damage – animal deaths, soil and vegetation damage</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Altered water regime</controllingFieldValue>
+                <valueName>Altered flow regimes (river and estuary) - low/high/zero flows, variability and</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Altered water regime</controllingFieldValue>
+                <valueName>Altered marine exchange - estuary opening regime</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Altered water regime</controllingFieldValue>
+                <valueName>Changed water regime (wetland) - seasonality, duration, frequency</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Altered physical form</controllingFieldValue>
+                <valueName>Altered wetland form – depth, shape, bathymetry, dredging, channel alteration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Altered physical form</controllingFieldValue>
+                <valueName>Bank instability (river and estuary) - erosion, slumping, livestock access</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Altered physical form</controllingFieldValue>
+                <valueName>Bed instability (river) - deepening, knickpoints</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Altered physical form</controllingFieldValue>
+                <valueName>Reduced extent (wetland and estuary) – area, estuary barriers, wetland drainage</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poor water quality</controllingFieldValue>
+                <valueName>Degraded water quality (estuary) -dissolved oxygen, turbidity, pH, chlorophyll a</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poor water quality</controllingFieldValue>
+                <valueName>Degraded water quality (wetland) - altered salinity regime, nutrient enrichment</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poor water quality</controllingFieldValue>
+                <valueName>Degraded water quality river - dissolved oxygen, conductivity, pH, phosphorus, nitrogen, turbidity, temperature, black water, nutrients, salinisation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poor water quality</controllingFieldValue>
+                <valueName>Disturbance of acid sulphate soils</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poor water quality</controllingFieldValue>
+                <valueName>Effluent – agricultural and industrial effluent</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poor water quality</controllingFieldValue>
+                <valueName>Other pollution events</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Poor water quality</controllingFieldValue>
+                <valueName>Thermal water pollution – dam releases, industrial coolant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Degraded habitats</controllingFieldValue>
+                <valueName>Degraded estuarine vegetation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Degraded habitats</controllingFieldValue>
+                <valueName>Degraded riparian vegetation – structure, large trees</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Degraded habitats</controllingFieldValue>
+                <valueName>Degraded terrestrial vegetation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Degraded habitats</controllingFieldValue>
+                <valueName>Degraded wetland buffer vegetation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Degraded habitats</controllingFieldValue>
+                <valueName>Destruction of flora or fauna habitat</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Degraded habitats</controllingFieldValue>
+                <valueName>Fragmentation barriers - to movement and/or reproduction</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Degraded habitats</controllingFieldValue>
+                <valueName>Fragmentation increased isolation - of remaining fragments (and of gene pools)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Degraded habitats</controllingFieldValue>
+                <valueName>Fragmentation reduction in size - remaining fragments</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Degraded habitats</controllingFieldValue>
+                <valueName>Loss of hollow bearing trees</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Degraded habitats</controllingFieldValue>
+                <valueName>Loss of important habitat features - shelter/breeding sites, pollinators, symbionts etc.</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Degraded habitats</controllingFieldValue>
+                <valueName>Loss of in-stream habitat – large wood, sedimentation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Degraded habitats</controllingFieldValue>
+                <valueName>Vegetation clearance</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reduced connectivity</controllingFieldValue>
+                <valueName>Barriers to estuarine biota</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reduced connectivity</controllingFieldValue>
+                <valueName>In-stream barriers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reduced connectivity</controllingFieldValue>
+                <valueName>Reduced floodplain connectivity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reduced connectivity</controllingFieldValue>
+                <valueName>Reduced riparian connectivity: vegetation width, fragmentation, overhang</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Soil disturbance</controllingFieldValue>
+                <valueName>Acidification</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Soil disturbance</controllingFieldValue>
+                <valueName>Biota decline</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Soil disturbance</controllingFieldValue>
+                <valueName>Compaction – (human, vehicles, introduced fauna)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Soil disturbance</controllingFieldValue>
+                <valueName>Erosion</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Soil disturbance</controllingFieldValue>
+                <valueName>Nutrient decline</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Soil disturbance</controllingFieldValue>
+                <valueName>Organic matter decline</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Soil disturbance</controllingFieldValue>
+                <valueName>Pugging (introduced fauna (livestock, invasive fauna))</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Soil disturbance</controllingFieldValue>
+                <valueName>Salinity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Soil disturbance</controllingFieldValue>
+                <valueName>Sedimentation/siltation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Soil disturbance</controllingFieldValue>
+                <valueName>Water logging</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Competition</controllingFieldValue>
+                <valueName>Introduced fauna - compete for food, breeding/nesting sites, territory</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Competition</controllingFieldValue>
+                <valueName>Introduced flora- compete for light, water, nutrients and space</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Competition</controllingFieldValue>
+                <valueName>Overabundant native fauna - compete for food, breeding/nesting sites, territory</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Competition</controllingFieldValue>
+                <valueName>Overabundant native flora - compete for light, water, nutrients and space</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Herbivory</controllingFieldValue>
+                <valueName>Introduced fauna - graze or browse plants/native vegetation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Herbivory</controllingFieldValue>
+                <valueName>Overabundant native fauna</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Predation</controllingFieldValue>
+                <valueName>Introduced predators (fauna)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Predation</controllingFieldValue>
+                <valueName>Native predators (fauna)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Trampling</controllingFieldValue>
+                <valueName>Introduced fauna - trample plants/native vegetation causing vegetative damage and loss</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Trampling</controllingFieldValue>
+                <valueName>Native fauna - trample plants/native vegetation causing vegetative damage and loss</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_Threat_Potential_Level__c</fullName>
+        <externalId>false</externalId>
+        <label>Threat Potential Level</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Very High</fullName>
+                    <default>false</default>
+                    <label>Very High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Threat and Management Action</label>
+    <nameField>
+        <label>Management Action Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Threats and Management Actions</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Action_Name__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Action_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>tfn_Threat_Class__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>tfn_Threat_Name__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Action_Name__c</searchFilterFields>
+        <searchFilterFields>tfn_Threat_Name__c</searchFilterFields>
+        <searchFilterFields>tfn_Threat_Class__c</searchFilterFields>
+        <searchResultsAdditionalFields>Action_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>tfN_Man_Action_Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>tfn_Threat_Class__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>tfn_Threat_Name__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

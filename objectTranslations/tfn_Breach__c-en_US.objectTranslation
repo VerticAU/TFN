@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Breach</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Breaches</value>
+    </caseValues>
+    <fields>
+        <label><!-- Extent --></label>
+        <name>Extent__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This is the significance of the Conservation Asset selected above that is on this covenant --></help>
+        <label><!-- Significance Rating of Impacted Asset --></label>
+        <name>Significane_Rating_of_Impacted_Asset__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very High</masterLabel>
+            <translation><!-- Very High --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Area Affected (Ha) --></label>
+        <name>tfn_Area_Affected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorities Inf. Other --></label>
+        <name>tfn_Authorities_Inf_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorities Informed --></label>
+        <name>tfn_Authorities_Informed__c</name>
+        <picklistValues>
+            <masterLabel>CMA</masterLabel>
+            <translation><!-- CMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DELWP</masterLabel>
+            <translation><!-- DELWP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local council</masterLabel>
+            <translation><!-- Local council --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Police</masterLabel>
+            <translation><!-- Police --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Breach Established --></label>
+        <name>tfn_Breach_Established__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breach ID --></label>
+        <name>tfn_Breach_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breach Identified By --></label>
+        <name>tfn_Breach_Identified_By__c</name>
+        <picklistValues>
+            <masterLabel>CMA Staff</masterLabel>
+            <translation><!-- CMA Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Covenantor</masterLabel>
+            <translation><!-- Current Covenantor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DELWP Staff</masterLabel>
+            <translation><!-- DELWP Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Local Police</masterLabel>
+            <translation><!-- Local Police --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighbour</masterLabel>
+            <translation><!-- Neighbour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Previous Covenantor</masterLabel>
+            <translation><!-- Previous Covenantor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TfN Staff</masterLabel>
+            <translation><!-- TfN Staff --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Breach Impact --></label>
+        <name>tfn_Breach_Impact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breach Import ID --></label>
+        <name>tfn_Breach_Import_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breach Perpetrator --></label>
+        <name>tfn_Breach_Perpetrator__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party</masterLabel>
+            <translation><!-- 3rd Party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Covenantor</masterLabel>
+            <translation><!-- Covenantor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecological Event</masterLabel>
+            <translation><!-- Ecological Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighbour</masterLabel>
+            <translation><!-- Neighbour --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Breach Resolved --></label>
+        <name>tfn_Breach_Resolved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breach Severity --></label>
+        <name>tfn_Breach_Severity__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Breach Stage --></label>
+        <name>tfn_Breach_Stage__c</name>
+        <picklistValues>
+            <masterLabel>In Determination</masterLabel>
+            <translation><!-- In Determination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Remediation</masterLabel>
+            <translation><!-- In Remediation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential</masterLabel>
+            <translation><!-- Potential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Must know the Species/ EVC Observation Name (auto generated number) you are looking for. Search results will be based on what is currently available on the Interest. --></help>
+        <label><!-- Conservation Asset Impacted --></label>
+        <name>tfn_Conservation_Asset_Impacted__c</name>
+        <relationshipLabel><!-- Breaches --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Discovered --></label>
+        <name>tfn_Date_Discovered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>tfn_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interest --></label>
+        <name>tfn_Interest__c</name>
+        <relationshipLabel><!-- Breaches --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Landholder Comments --></label>
+        <name>tfn_Landholder_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Intensive Stewardship --></label>
+        <name>tfn_Related_Intensive_Stewardship__c</name>
+        <relationshipLabel><!-- Breaches --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Resolution --></label>
+        <name>tfn_Resolution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Root Cause for Breach --></label>
+        <name>tfn_Root_Cause_for_Breach__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scope --></label>
+        <name>tfn_Scope__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>TfN Breach Layout</layout>
+        <sections>
+            <label><!-- Breach Details --></label>
+            <section>Breach Details</section>
+        </sections>
+        <sections>
+            <label><!-- Conservation Asset Search --></label>
+            <section>Conservation Asset Search</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You need to enter Other Authorities Informed in the text box --></errorMessage>
+        <name>Enforce_Other_Text_Box_Completion</name>
+    </validationRules>
+</CustomObjectTranslation>

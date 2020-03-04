@@ -1,0 +1,3123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>TFN_Species_EVC_Observation_Lightning_Layout</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>TfN_Species_EVC_Observation_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>TfN_Species_EVC_Observation_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>RecordTypeId</fields>
+        <fields>tfn_Interest__c</fields>
+        <label>TfN Species/ EVC Observation Compact Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>tfn_Abundance_Scale__c</fullName>
+        <externalId>false</externalId>
+        <label>Abundance Scale</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>&lt;  1% projective foliage, few individuals</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>&lt;  1% projective foliage, few individuals</label>
+                </value>
+                <value>
+                    <fullName>1-5% projective foliage cover or &lt;  1% many individuals</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>1-5% projective foliage cover or &lt;  1% many individuals</label>
+                </value>
+                <value>
+                    <fullName>26-50% projective foliage cover</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>26-50% projective foliage cover</label>
+                </value>
+                <value>
+                    <fullName>51-75% projective foliage cover</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>51-75% projective foliage cover</label>
+                </value>
+                <value>
+                    <fullName>5-25% projective foliage cover or &lt;  5% numerous individuals</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>5-25% projective foliage cover or &lt;  5% numerous individuals</label>
+                </value>
+                <value>
+                    <fullName>76-100% projective foliage cover</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>76-100% projective foliage cover</label>
+                </value>
+                <value>
+                    <fullName>Not Entered</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Not Entered</label>
+                </value>
+                <value>
+                    <fullName>Rare or solitary with negligible cover</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Rare or solitary with negligible cover</label>
+                </value>
+                <value>
+                    <fullName>Assumed presence</fullName>
+                    <default>false</default>
+                    <label>Fauna - Assumed presence</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Fauna - Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Fauna - Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>fauna - High</label>
+                </value>
+                <value>
+                    <fullName>1-5% projective foliage cover or &lt; 1% many individuals</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>1-5% projective foliage cover or &lt; 1% many individuals</label>
+                </value>
+                <value>
+                    <fullName>5-25% projective foliage cover or &lt; 5% numerous individuals</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>5-25% projective foliage cover or &lt; 5% numerous individuals</label>
+                </value>
+                <value>
+                    <fullName>&lt; 1% projective foliage, few individuals</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>&lt; 1% projective foliage, few individuals</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_Asset_Marker__c</fullName>
+        <externalId>false</externalId>
+        <label>Asset Marker</label>
+        <length>8</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Asset_Question__c</fullName>
+        <externalId>false</externalId>
+        <formula>FALSE</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Asset?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Bioregion_No__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Ecological_Vegetation_Class__r.tfn_Bioregion_No__c</formula>
+        <label>Bioregion No.</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Bioregion__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Ecological_Vegetation_Class__r.tfn_Bioregion__c</formula>
+        <label>Bioregion</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Breeding_Recruitment__c</fullName>
+        <externalId>false</externalId>
+        <label>Breeding/Recruitment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>tfn_Yes_or_No</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_Common_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Species__r.tfn_Common_Name__c</formula>
+        <label>Common Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Conservation_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Ecological_Vegetation_Class__r.tfn_BCS__c</formula>
+        <inlineHelpText>BCS</inlineHelpText>
+        <label>Conservation Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Conservation_Tier__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Conservation Tier</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Domestic_Tier__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Domestic Tier</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_EC_Observation_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>( LEFT(tfn_Ecological_Community__r.Name, 40) )&amp;(&quot; - &quot;)&amp;TEXT(tfn_EVC_Trend_Cond_Date__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>EC Observation Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_EPCB_Act_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM((tfn_Species__r.tfn_EPCB_Act_Status__c)&amp;( tfn_Ecological_Community__r.tfn_EC_EPBC_Act_Status__c ))</formula>
+        <label>EPCB Act Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_EVC_Group_No__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Ecological_Vegetation_Class__r.tfn_EVC_Group_No__c</formula>
+        <label>EVC Group No.</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_EVC_Name_Official__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Ecological_Vegetation_Class__r.tfn_EVC_Official_Name__c</formula>
+        <label>EVC Name (Official)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_EVC_No__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Ecological_Vegetation_Class__r.tfn_EVC_Number__c</formula>
+        <label>EVC No.</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_EVC_Observation_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>(tfn_Ecological_Vegetation_Class__r.tfn_EVC_Official_Name__c)&amp;(&quot; - &quot;)&amp;TEXT(tfn_EVC_Trend_Cond_Date__c)</formula>
+        <label>EVC Observation Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_EVC_Sub_Group_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Ecological_Vegetation_Class__r.tfn_EVC_Sub_Group_Name__c</formula>
+        <label>EVC Sub-Group Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_EVC_Trend_Cond_Date__c</fullName>
+        <defaultValue>TODAY()</defaultValue>
+        <externalId>false</externalId>
+        <label>Observation Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Ecological_Community_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Ecological_Community__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Ecological Community Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Ecological_Community__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Ecological Community</label>
+        <referenceTo>tfn_Ecological_Community__c</referenceTo>
+        <relationshipName>Species_EVC_Observations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Ecological_Vegetation_Class__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>This is in the format of &quot;Ecological Vegetation Class Name - Vic Bio Region&quot;</inlineHelpText>
+        <label>Ecological Vegetation Class</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>This is a legacy value and cannot be linked to a new interest</errorMessage>
+            <filterItems>
+                <field>tfn_Ecological_Vegetation_Class__c.tfn_Active__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>tfn_Ecological_Vegetation_Class__c</referenceTo>
+        <relationshipName>Species_EVC_Observations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tfn_FFG_Act_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>TRIM((tfn_Species__r.tfn_FFG_Act_Status__c)&amp;( tfn_Ecological_Community__r.tfn_EC_FFG_Act_Status__c ))</formula>
+        <label>FFG Act Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Fauna_Survey_Detailed_List__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Detailed List</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>tfn_Survey_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 km block count</fullName>
+                    <default>false</default>
+                    <label>1 km block count</label>
+                </value>
+                <value>
+                    <fullName>Bat detector</fullName>
+                    <default>false</default>
+                    <label>Bat detector</label>
+                </value>
+                <value>
+                    <fullName>Bat trap</fullName>
+                    <default>false</default>
+                    <label>Bat trap</label>
+                </value>
+                <value>
+                    <fullName>Bat tripline</fullName>
+                    <default>false</default>
+                    <label>Bat tripline</label>
+                </value>
+                <value>
+                    <fullName>Birds Australia 2ha search</fullName>
+                    <default>false</default>
+                    <label>Birds Australia 2ha search</label>
+                </value>
+                <value>
+                    <fullName>Birds Australia 500m area search</fullName>
+                    <default>false</default>
+                    <label>Birds Australia 500m area search</label>
+                </value>
+                <value>
+                    <fullName>Birds Australia 5km area search</fullName>
+                    <default>false</default>
+                    <label>Birds Australia 5km area search</label>
+                </value>
+                <value>
+                    <fullName>Birds Australia incidental search</fullName>
+                    <default>false</default>
+                    <label>Birds Australia incidental search</label>
+                </value>
+                <value>
+                    <fullName>Bird transect</fullName>
+                    <default>false</default>
+                    <label>Bird transect</label>
+                </value>
+                <value>
+                    <fullName>Both cage/elliot and bat/fishing line trip line</fullName>
+                    <default>false</default>
+                    <label>Both cage/elliot and bat/fishing line trip line</label>
+                </value>
+                <value>
+                    <fullName>Cage trap</fullName>
+                    <default>false</default>
+                    <label>Cage trap</label>
+                </value>
+                <value>
+                    <fullName>Camera - remote</fullName>
+                    <default>false</default>
+                    <label>Camera - remote</label>
+                </value>
+                <value>
+                    <fullName>Camera - Thermal imaging</fullName>
+                    <default>false</default>
+                    <label>Camera - Thermal imaging</label>
+                </value>
+                <value>
+                    <fullName>Dip Net</fullName>
+                    <default>false</default>
+                    <label>Dip Net</label>
+                </value>
+                <value>
+                    <fullName>Dusk watch</fullName>
+                    <default>false</default>
+                    <label>Dusk watch</label>
+                </value>
+                <value>
+                    <fullName>Elliott trap</fullName>
+                    <default>false</default>
+                    <label>Elliott trap</label>
+                </value>
+                <value>
+                    <fullName>Elliott trap - Large</fullName>
+                    <default>false</default>
+                    <label>Elliott trap - Large</label>
+                </value>
+                <value>
+                    <fullName>Faunatech hair tubes(bait type in X)</fullName>
+                    <default>false</default>
+                    <label>Faunatech hair tubes(bait type in X)</label>
+                </value>
+                <value>
+                    <fullName>Frog census</fullName>
+                    <default>false</default>
+                    <label>Frog census</label>
+                </value>
+                <value>
+                    <fullName>Frog transect</fullName>
+                    <default>false</default>
+                    <label>Frog transect</label>
+                </value>
+                <value>
+                    <fullName>Funnel Trap Drift Fence</fullName>
+                    <default>false</default>
+                    <label>Funnel Trap Drift Fence</label>
+                </value>
+                <value>
+                    <fullName>Giant Gippsland Earthworm Survey</fullName>
+                    <default>false</default>
+                    <label>Giant Gippsland Earthworm Survey</label>
+                </value>
+                <value>
+                    <fullName>Golden Sun Moth Adult Survey</fullName>
+                    <default>false</default>
+                    <label>Golden Sun Moth Adult Survey</label>
+                </value>
+                <value>
+                    <fullName>Golden Sun Moth Lavae Survey</fullName>
+                    <default>false</default>
+                    <label>Golden Sun Moth Lavae Survey</label>
+                </value>
+                <value>
+                    <fullName>Golden Sun Moth Pupae Survey</fullName>
+                    <default>false</default>
+                    <label>Golden Sun Moth Pupae Survey</label>
+                </value>
+                <value>
+                    <fullName>Hair tube</fullName>
+                    <default>false</default>
+                    <label>Hair tube</label>
+                </value>
+                <value>
+                    <fullName>Herp census - active</fullName>
+                    <default>false</default>
+                    <label>Herp census - active</label>
+                </value>
+                <value>
+                    <fullName>Herp census - passive</fullName>
+                    <default>false</default>
+                    <label>Herp census - passive</label>
+                </value>
+                <value>
+                    <fullName>Herp spot count</fullName>
+                    <default>false</default>
+                    <label>Herp spot count</label>
+                </value>
+                <value>
+                    <fullName>Herp transect</fullName>
+                    <default>false</default>
+                    <label>Herp transect</label>
+                </value>
+                <value>
+                    <fullName>Incidental</fullName>
+                    <default>true</default>
+                    <label>Incidental</label>
+                </value>
+                <value>
+                    <fullName>Invertebrate pitfall trapping</fullName>
+                    <default>false</default>
+                    <label>Invertebrate pitfall trapping</label>
+                </value>
+                <value>
+                    <fullName>Invertebrate Search - active</fullName>
+                    <default>false</default>
+                    <label>Invertebrate Search - active</label>
+                </value>
+                <value>
+                    <fullName>Invertebrate Search - passive</fullName>
+                    <default>false</default>
+                    <label>Invertebrate Search - passive</label>
+                </value>
+                <value>
+                    <fullName>Large cage trap</fullName>
+                    <default>false</default>
+                    <label>Large cage trap</label>
+                </value>
+                <value>
+                    <fullName>Large hair tubes</fullName>
+                    <default>false</default>
+                    <label>Large hair tubes</label>
+                </value>
+                <value>
+                    <fullName>Listening</fullName>
+                    <default>false</default>
+                    <label>Listening</label>
+                </value>
+                <value>
+                    <fullName>Mist net</fullName>
+                    <default>false</default>
+                    <label>Mist net</label>
+                </value>
+                <value>
+                    <fullName>Nest box</fullName>
+                    <default>false</default>
+                    <label>Nest box</label>
+                </value>
+                <value>
+                    <fullName>Number of caves/mines/tunnels searched</fullName>
+                    <default>false</default>
+                    <label>Number of caves/mines/tunnels searched</label>
+                </value>
+                <value>
+                    <fullName>Owl census</fullName>
+                    <default>false</default>
+                    <label>Owl census</label>
+                </value>
+                <value>
+                    <fullName>Pitfall</fullName>
+                    <default>false</default>
+                    <label>Pitfall</label>
+                </value>
+                <value>
+                    <fullName>Pitfall with drift fence</fullName>
+                    <default>false</default>
+                    <label>Pitfall with drift fence</label>
+                </value>
+                <value>
+                    <fullName>Plains-wanderer survey</fullName>
+                    <default>false</default>
+                    <label>Plains-wanderer survey</label>
+                </value>
+                <value>
+                    <fullName>Playback</fullName>
+                    <default>false</default>
+                    <label>Playback</label>
+                </value>
+                <value>
+                    <fullName>Point spot count</fullName>
+                    <default>false</default>
+                    <label>Point spot count</label>
+                </value>
+                <value>
+                    <fullName>Scat analysis</fullName>
+                    <default>false</default>
+                    <label>Scat analysis</label>
+                </value>
+                <value>
+                    <fullName>Scat census</fullName>
+                    <default>false</default>
+                    <label>Scat census</label>
+                </value>
+                <value>
+                    <fullName>Small hair tubes</fullName>
+                    <default>false</default>
+                    <label>Small hair tubes</label>
+                </value>
+                <value>
+                    <fullName>Southern Right Whale Monitoring</fullName>
+                    <default>false</default>
+                    <label>Southern Right Whale Monitoring</label>
+                </value>
+                <value>
+                    <fullName>Species List for a defined Area</fullName>
+                    <default>false</default>
+                    <label>Species List for a defined Area</label>
+                </value>
+                <value>
+                    <fullName>Spotlighting</fullName>
+                    <default>false</default>
+                    <label>Spotlighting</label>
+                </value>
+                <value>
+                    <fullName>Spotlighting by area</fullName>
+                    <default>false</default>
+                    <label>Spotlighting by area</label>
+                </value>
+                <value>
+                    <fullName>Spotlighting on foot</fullName>
+                    <default>false</default>
+                    <label>Spotlighting on foot</label>
+                </value>
+                <value>
+                    <fullName>Stag watching</fullName>
+                    <default>false</default>
+                    <label>Stag watching</label>
+                </value>
+                <value>
+                    <fullName>Swift Parrot Survey</fullName>
+                    <default>false</default>
+                    <label>Swift Parrot Survey</label>
+                </value>
+                <value>
+                    <fullName>Tadpole Trapping</fullName>
+                    <default>false</default>
+                    <label>Tadpole Trapping</label>
+                </value>
+                <value>
+                    <fullName>Targeted Search</fullName>
+                    <default>false</default>
+                    <label>Targeted Search</label>
+                </value>
+                <value>
+                    <fullName>Timed area stag watch</fullName>
+                    <default>false</default>
+                    <label>Timed area stag watch</label>
+                </value>
+                <value>
+                    <fullName>Timed bird census</fullName>
+                    <default>false</default>
+                    <label>Timed bird census</label>
+                </value>
+                <value>
+                    <fullName>Timed herp census (active search)</fullName>
+                    <default>false</default>
+                    <label>Timed herp census (active search)</label>
+                </value>
+                <value>
+                    <fullName>Tin census (articifial substrate)</fullName>
+                    <default>false</default>
+                    <label>Tin census (articifial substrate)</label>
+                </value>
+                <value>
+                    <fullName>Translocation</fullName>
+                    <default>false</default>
+                    <label>Translocation</label>
+                </value>
+                <value>
+                    <fullName>Treadle Trap</fullName>
+                    <default>false</default>
+                    <label>Treadle Trap</label>
+                </value>
+                <value>
+                    <fullName>Wetland count</fullName>
+                    <default>false</default>
+                    <label>Wetland count</label>
+                </value>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>1 km block count</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Bat detector</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Bat trap</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Bat tripline</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Birds Australia 2ha search</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Birds Australia 500m area search</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Birds Australia 5km area search</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Birds Australia incidental search</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Bird transect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Both cage/elliot and bat/fishing line trip line</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Cage trap</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Camera - remote</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Camera - Thermal imaging</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Dip Net</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Dusk watch</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Elliott trap</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Elliott trap - Large</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Faunatech hair tubes(bait type in X)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Frog census</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Frog transect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Funnel Trap Drift Fence</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Giant Gippsland Earthworm Survey</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Golden Sun Moth Adult Survey</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Golden Sun Moth Lavae Survey</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Golden Sun Moth Pupae Survey</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Hair tube</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Herp census - active</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Herp census - passive</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Herp spot count</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Herp transect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Incidental</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Invertebrate pitfall trapping</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Invertebrate Search - active</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Invertebrate Search - passive</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Large cage trap</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Large hair tubes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Listening</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Mist net</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Nest box</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Number of caves/mines/tunnels searched</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Owl census</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Pitfall</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Pitfall with drift fence</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Plains-wanderer survey</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Playback</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Point spot count</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Scat analysis</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Scat census</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Small hair tubes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Southern Right Whale Monitoring</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Species List for a defined Area</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Spotlighting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Spotlighting by area</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Spotlighting on foot</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Stag watching</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Swift Parrot Survey</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Tadpole Trapping</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Targeted Search</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Timed area stag watch</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Timed bird census</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Timed herp census (active search)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Tin census (articifial substrate)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Translocation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Treadle Trap</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Incidental</controllingFieldValue>
+                <controllingFieldValue>Species List for Defined Area</controllingFieldValue>
+                <controllingFieldValue>Targeted Search</controllingFieldValue>
+                <controllingFieldValue>Nest box</controllingFieldValue>
+                <controllingFieldValue>Spotlighting</controllingFieldValue>
+                <valueName>Wetland count</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Monitoring</controllingFieldValue>
+                <controllingFieldValue>Quadrat</controllingFieldValue>
+                <controllingFieldValue>Specimen</controllingFieldValue>
+                <valueName>None</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_Fauna__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Search for fauna</inlineHelpText>
+        <label>Fauna</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>tfn_Species__c.tfn_Primary_Discipline__c</field>
+                <operation>notEqual</operation>
+                <value>Flora</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>tfn_Species__c</referenceTo>
+        <relationshipName>Species_EVC_Observations2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Flora__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Search for the flora</inlineHelpText>
+        <label>Flora</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>tfn_Species__c.tfn_Primary_Discipline__c</field>
+                <operation>equals</operation>
+                <value>Flora</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>tfn_Species__c</referenceTo>
+        <relationshipName>Species_EVC_Observations1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Historic_Place_Tier__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Historic Place Tier</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Interest__c</fullName>
+        <externalId>false</externalId>
+        <label>Interest</label>
+        <referenceTo>loc03__Easement_FeeTitle__c</referenceTo>
+        <relationshipName>Species_EVC_Observations</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>tfn_Major_Asset_Category__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Ecological_Vegetation_Class__r.tfn_EVC_Group_Name_MajorAsset__c</formula>
+        <label>Major Asset Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Modified_Tier__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Modified Tier</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Monitoring__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Monitoring (If Applicable)</label>
+        <referenceTo>loc03__Monitoring__c</referenceTo>
+        <relationshipName>Species_EVC_Observations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Natural_Interest_Tier__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Natural Interest Tier</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Nvis_Growthform__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Species__r.tfn_Nvis_Growthform__c</formula>
+        <label>Nvis Growthform</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Observation_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Observation Comments</label>
+        <length>1024</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>tfn_Observation_Condition__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the field that is used in New Covenant Proposal that is submitted to committee for approval</inlineHelpText>
+        <label>Observation Condition</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Good</fullName>
+                    <default>false</default>
+                    <label>Good</label>
+                </value>
+                <value>
+                    <fullName>Moderate</fullName>
+                    <default>false</default>
+                    <label>Moderate</label>
+                </value>
+                <value>
+                    <fullName>Poor</fullName>
+                    <default>false</default>
+                    <label>Poor</label>
+                </value>
+                <value>
+                    <fullName>Very Good</fullName>
+                    <default>false</default>
+                    <label>Very Good</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_Observation_Coordinates__c</fullName>
+        <displayLocationInDecimal>true</displayLocationInDecimal>
+        <externalId>false</externalId>
+        <label>Observation Coordinates</label>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Location</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Observation_Import_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>Observation Import ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Observation_by__c</fullName>
+        <externalId>false</externalId>
+        <label>Observation by</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Consultant</fullName>
+                    <default>false</default>
+                    <label>Consultant</label>
+                </value>
+                <value>
+                    <fullName>Covenantor</fullName>
+                    <default>false</default>
+                    <label>Covenantor</label>
+                </value>
+                <value>
+                    <fullName>Staff</fullName>
+                    <default>false</default>
+                    <label>Staff</label>
+                </value>
+                <value>
+                    <fullName>Volunteer</fullName>
+                    <default>false</default>
+                    <label>Volunteer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_Origin__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Species__r.tfn_Origin__c</formula>
+        <label>Origin</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Primary_Discipline__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Species__r.tfn_Primary_Discipline__c</formula>
+        <label>Primary Discipline</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Recording_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Staff member who recorded this observation.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Staff member who recorded this observation.</inlineHelpText>
+        <label>Recording By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Species_EVC_Observations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Recording_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Recording Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Observed</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Observed</label>
+                </value>
+                <value>
+                    <fullName>Potential</fullName>
+                    <color>#FFFFFF</color>
+                    <default>false</default>
+                    <label>Potential</label>
+                </value>
+                <value>
+                    <fullName>All</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>All</label>
+                </value>
+                <value>
+                    <fullName>Locally Significant</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Locally Significant</label>
+                </value>
+                <value>
+                    <fullName>Regionally Significant</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Regionally Significant</label>
+                </value>
+                <value>
+                    <fullName>Significant</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Significant</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_Short_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Species__r.tfn_Short_Name__c</formula>
+        <label>Short Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Species_EVC_Asset_Description__c</fullName>
+        <defaultValue>&quot;Text&quot;</defaultValue>
+        <externalId>false</externalId>
+        <label>Species/EVC/EC Description</label>
+        <length>3000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>tfn_Species_Image__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(tfn_Species__r.tfn_Image_Library_Link__c, &quot;Image&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Species Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Species_Observation_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>(tfn_Species__r.Name)&amp;(&quot; - &quot;)&amp;TEXT(tfn_EVC_Trend_Cond_Date__c)</formula>
+        <label>Species Observation Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Species_Scientific_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Species__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Species Scientific Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Species__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Species</label>
+        <lookupFilter>
+            <active>false</active>
+            <filterItems>
+                <field>tfn_Species__c.tfn_Active__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>tfn_Species__c</referenceTo>
+        <relationshipName>Species_EVC_Observations</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>tfn_Survey_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Survey Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Incidental</fullName>
+                    <default>false</default>
+                    <label>Incidental</label>
+                </value>
+                <value>
+                    <fullName>Monitoring</fullName>
+                    <default>true</default>
+                    <label>Monitoring</label>
+                </value>
+                <value>
+                    <fullName>Nest box</fullName>
+                    <default>false</default>
+                    <label>Nest box</label>
+                </value>
+                <value>
+                    <fullName>Quadrat</fullName>
+                    <default>false</default>
+                    <label>Quadrat</label>
+                </value>
+                <value>
+                    <fullName>Species List for Defined Area</fullName>
+                    <default>false</default>
+                    <label>Species List for Defined Area</label>
+                </value>
+                <value>
+                    <fullName>Specimen</fullName>
+                    <default>false</default>
+                    <label>Specimen</label>
+                </value>
+                <value>
+                    <fullName>Spotlighting</fullName>
+                    <default>false</default>
+                    <label>Spotlighting</label>
+                </value>
+                <value>
+                    <fullName>Targeted Search</fullName>
+                    <default>false</default>
+                    <label>Targeted Search</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>tfn_Sustainable_Tier__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Sustainable Tier</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Total_EVC_Area__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Conservation_Tier__c+tfn_Domestic_Tier__c+tfn_Historic_Place_Tier__c+tfn_Modified_Tier__c+tfn_Natural_Interest_Tier__c+tfn_Sustainable_Tier__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total EVC Area</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Vic_Bio_Region__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Interest__r.tfn_Vic_Bio_Region__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vic Bio Region</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>tfn_Victorian_Advisory_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>tfn_Species__r.tfn_Victorian_Advisory_Status__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Victorian Advisory Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Species/EVC/EC Observation</label>
+    <nameField>
+        <label>Species/ EVC Observation Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Species/EVC/EC Observations</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>tfn_Ecological_Community</fullName>
+        <active>true</active>
+        <label>Ecological Community</label>
+        <picklistValues>
+            <picklist>tfn_Abundance_Scale__c</picklist>
+            <values>
+                <fullName>%3C  1%25 projective foliage%2C few individuals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1-5%25 projective foliage cover or %3C  1%25 many individuals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>26-50%25 projective foliage cover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5-25%25 projective foliage cover or %3C  5%25 numerous individuals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>51-75%25 projective foliage cover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>76-100%25 projective foliage cover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Entered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rare or solitary with negligible cover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Breeding_Recruitment__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Fauna_Survey_Detailed_List__c</picklist>
+            <values>
+                <fullName>1 km block count</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bat detector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bat trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bat tripline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bird transect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Birds Australia 2ha search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Birds Australia 500m area search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Birds Australia 5km area search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Birds Australia incidental search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Both cage%2Felliot and bat%2Ffishing line trip line</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cage trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Camera - Thermal imaging</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Camera - remote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dip Net</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dusk watch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elliott trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elliott trap - Large</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Faunatech hair tubes%28bait type in X%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frog census</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frog transect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Funnel Trap Drift Fence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Giant Gippsland Earthworm Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Golden Sun Moth Adult Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Golden Sun Moth Lavae Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Golden Sun Moth Pupae Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hair tube</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Herp census - active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Herp census - passive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Herp spot count</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Herp transect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invertebrate Search - active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invertebrate Search - passive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invertebrate pitfall trapping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Large cage trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Large hair tubes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Listening</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mist net</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nest box</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Number of caves%2Fmines%2Ftunnels searched</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Owl census</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pitfall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pitfall with drift fence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plains-wanderer survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Playback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Point spot count</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scat analysis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scat census</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small hair tubes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Southern Right Whale Monitoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Species List for a defined Area</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spotlighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spotlighting by area</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spotlighting on foot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stag watching</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Swift Parrot Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tadpole Trapping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Targeted Search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timed area stag watch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timed bird census</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timed herp census %28active search%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tin census %28articifial substrate%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Translocation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Treadle Trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wetland count</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Observation_Condition__c</picklist>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moderate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Poor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Very Good</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Observation_by__c</picklist>
+            <values>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Covenantor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Volunteer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Recording_Status__c</picklist>
+            <values>
+                <fullName>Observed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Survey_Type__c</picklist>
+            <values>
+                <fullName>Incidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monitoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nest box</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quadrat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Species List for Defined Area</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specimen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spotlighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Targeted Search</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>tfn_Ecological_Vegetation_Class</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>TfN_Species_EVC_Observation_Compact_Layout</compactLayoutAssignment>
+        <label>EVC</label>
+        <picklistValues>
+            <picklist>tfn_Abundance_Scale__c</picklist>
+            <values>
+                <fullName>%3C  1%25 projective foliage%2C few individuals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1-5%25 projective foliage cover or %3C  1%25 many individuals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>26-50%25 projective foliage cover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5-25%25 projective foliage cover or %3C  5%25 numerous individuals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>51-75%25 projective foliage cover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>76-100%25 projective foliage cover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Entered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rare or solitary with negligible cover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Breeding_Recruitment__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Fauna_Survey_Detailed_List__c</picklist>
+            <values>
+                <fullName>1 km block count</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bat detector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bat trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bat tripline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bird transect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Birds Australia 2ha search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Birds Australia 500m area search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Birds Australia 5km area search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Birds Australia incidental search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Both cage%2Felliot and bat%2Ffishing line trip line</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cage trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Camera - Thermal imaging</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Camera - remote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dip Net</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dusk watch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elliott trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elliott trap - Large</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Faunatech hair tubes%28bait type in X%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frog census</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frog transect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Funnel Trap Drift Fence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Giant Gippsland Earthworm Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Golden Sun Moth Adult Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Golden Sun Moth Lavae Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Golden Sun Moth Pupae Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hair tube</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Herp census - active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Herp census - passive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Herp spot count</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Herp transect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invertebrate Search - active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invertebrate Search - passive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invertebrate pitfall trapping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Large cage trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Large hair tubes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Listening</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mist net</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nest box</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Number of caves%2Fmines%2Ftunnels searched</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Owl census</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pitfall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pitfall with drift fence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plains-wanderer survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Playback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Point spot count</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scat analysis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scat census</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small hair tubes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Southern Right Whale Monitoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Species List for a defined Area</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spotlighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spotlighting by area</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spotlighting on foot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stag watching</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Swift Parrot Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tadpole Trapping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Targeted Search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timed area stag watch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timed bird census</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timed herp census %28active search%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tin census %28articifial substrate%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Translocation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Treadle Trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wetland count</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Observation_Condition__c</picklist>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moderate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Poor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Very Good</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Observation_by__c</picklist>
+            <values>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Covenantor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Staff</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Volunteer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Recording_Status__c</picklist>
+            <values>
+                <fullName>Observed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Survey_Type__c</picklist>
+            <values>
+                <fullName>Incidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Monitoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nest box</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quadrat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Species List for Defined Area</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specimen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spotlighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Targeted Search</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>tfn_Species</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>TfN_Species_EVC_Observation_Compact_Layout</compactLayoutAssignment>
+        <label>Species</label>
+        <picklistValues>
+            <picklist>tfn_Abundance_Scale__c</picklist>
+            <values>
+                <fullName>%3C  1%25 projective foliage%2C few individuals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1-5%25 projective foliage cover or %3C  1%25 many individuals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>26-50%25 projective foliage cover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5-25%25 projective foliage cover or %3C  5%25 numerous individuals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>51-75%25 projective foliage cover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>76-100%25 projective foliage cover</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Assumed presence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Entered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rare or solitary with negligible cover</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Breeding_Recruitment__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Fauna_Survey_Detailed_List__c</picklist>
+            <values>
+                <fullName>1 km block count</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bat detector</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bat trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bat tripline</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bird transect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Birds Australia 2ha search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Birds Australia 500m area search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Birds Australia 5km area search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Birds Australia incidental search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Both cage%2Felliot and bat%2Ffishing line trip line</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cage trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Camera - Thermal imaging</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Camera - remote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dip Net</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dusk watch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elliott trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Elliott trap - Large</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Faunatech hair tubes%28bait type in X%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frog census</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frog transect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Funnel Trap Drift Fence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Giant Gippsland Earthworm Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Golden Sun Moth Adult Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Golden Sun Moth Lavae Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Golden Sun Moth Pupae Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hair tube</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Herp census - active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Herp census - passive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Herp spot count</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Herp transect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incidental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invertebrate Search - active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invertebrate Search - passive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invertebrate pitfall trapping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Large cage trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Large hair tubes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Listening</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mist net</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nest box</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Number of caves%2Fmines%2Ftunnels searched</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Owl census</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pitfall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pitfall with drift fence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plains-wanderer survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Playback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Point spot count</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scat analysis</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scat census</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small hair tubes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Southern Right Whale Monitoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Species List for a defined Area</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spotlighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spotlighting by area</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spotlighting on foot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stag watching</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Swift Parrot Survey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tadpole Trapping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Targeted Search</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timed area stag watch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timed bird census</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Timed herp census %28active search%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tin census %28articifial substrate%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Translocation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Treadle Trap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Wetland count</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Observation_Condition__c</picklist>
+            <values>
+                <fullName>Good</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moderate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Poor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Very Good</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Observation_by__c</picklist>
+            <values>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Covenantor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Staff</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Volunteer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Recording_Status__c</picklist>
+            <values>
+                <fullName>Observed</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Potential</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>tfn_Survey_Type__c</picklist>
+            <values>
+                <fullName>Incidental</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Monitoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nest box</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quadrat</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Species List for Defined Area</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Specimen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spotlighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Targeted Search</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

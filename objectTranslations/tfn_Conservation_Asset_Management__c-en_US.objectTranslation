@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Conservation Asset Management</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Conservation Assets Management</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action Description --></label>
+        <name>tfn_Action_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Name --></label>
+        <name>tfn_Action_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Priority --></label>
+        <name>tfn_Action_Priority__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Name --></label>
+        <name>tfn_Asset_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Record Type --></label>
+        <name>tfn_Asset_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cons Asset Mgt ID --></label>
+        <name>tfn_Cons_Asset_Mgt_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conservation Asset --></label>
+        <name>tfn_Conservation_Asset__c</name>
+        <relationshipLabel><!-- Conservation Assets Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Interest --></label>
+        <name>tfn_Interest__c</name>
+        <relationshipLabel><!-- Conservation Assets Management --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Man Action Targeted Species --></label>
+        <name>tfn_Man_Action_Targeted_Species__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threat Class --></label>
+        <name>tfn_Threat_Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threat Name --></label>
+        <name>tfn_Threat_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threat and Action --></label>
+        <lookupFilter>
+            <errorMessage><!-- Only Threats and Management Actions created for this covenant will be displayed in this search --></errorMessage>
+            <informationalMessage><!-- Only Threats and Management Actions created for this covenant will be displayed in this search --></informationalMessage>
+        </lookupFilter>
+        <name>tfn_Threat_and_Action__c</name>
+        <relationshipLabel><!-- Conservation Assets Management --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Conservation Asset Management Layout</layout>
+        <sections>
+            <label><!-- Conservation Asset --></label>
+            <section>Conservation Asset</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Threat and Action --></label>
+            <section>Threat and Action</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

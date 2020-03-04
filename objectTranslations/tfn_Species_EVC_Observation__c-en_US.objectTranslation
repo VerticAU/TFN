@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Species/EVC/EC Observation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Species/EVC/EC Observations</value>
+    </caseValues>
+    <fields>
+        <label><!-- Abundance Scale --></label>
+        <name>tfn_Abundance_Scale__c</name>
+        <picklistValues>
+            <masterLabel>1-5% projective foliage cover or &lt;  1% many individuals</masterLabel>
+            <translation><!-- 1-5% projective foliage cover or &lt;  1% many individuals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26-50% projective foliage cover</masterLabel>
+            <translation><!-- 26-50% projective foliage cover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5-25% projective foliage cover or &lt;  5% numerous individuals</masterLabel>
+            <translation><!-- 5-25% projective foliage cover or &lt;  5% numerous individuals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>51-75% projective foliage cover</masterLabel>
+            <translation><!-- 51-75% projective foliage cover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>76-100% projective foliage cover</masterLabel>
+            <translation><!-- 76-100% projective foliage cover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;  1% projective foliage, few individuals</masterLabel>
+            <translation><!-- &lt;  1% projective foliage, few individuals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fauna - Assumed presence</masterLabel>
+            <translation><!-- Fauna - Assumed presence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fauna - Low</masterLabel>
+            <translation><!-- Fauna - Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fauna - Medium</masterLabel>
+            <translation><!-- Fauna - Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Entered</masterLabel>
+            <translation><!-- Not Entered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rare or solitary with negligible cover</masterLabel>
+            <translation><!-- Rare or solitary with negligible cover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fauna - High</masterLabel>
+            <translation><!-- fauna - High --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Asset Marker --></label>
+        <name>tfn_Asset_Marker__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset? --></label>
+        <name>tfn_Asset_Question__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bioregion No. --></label>
+        <name>tfn_Bioregion_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bioregion --></label>
+        <name>tfn_Bioregion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Breeding/Recruitment --></label>
+        <name>tfn_Breeding_Recruitment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Common Name --></label>
+        <name>tfn_Common_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- BCS --></help>
+        <label><!-- Conservation Status --></label>
+        <name>tfn_Conservation_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conservation Tier --></label>
+        <name>tfn_Conservation_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Domestic Tier --></label>
+        <name>tfn_Domestic_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- EC Observation Name --></label>
+        <name>tfn_EC_Observation_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- EPCB Act Status --></label>
+        <name>tfn_EPCB_Act_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Group No. --></label>
+        <name>tfn_EVC_Group_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Name (Official) --></label>
+        <name>tfn_EVC_Name_Official__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC No. --></label>
+        <name>tfn_EVC_No__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Observation Name --></label>
+        <name>tfn_EVC_Observation_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Sub-Group Name --></label>
+        <name>tfn_EVC_Sub_Group_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation Date --></label>
+        <name>tfn_EVC_Trend_Cond_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ecological Community Name --></label>
+        <name>tfn_Ecological_Community_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ecological Community --></label>
+        <name>tfn_Ecological_Community__c</name>
+        <relationshipLabel><!-- Species/EVC/EC Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This is in the format of &quot;Ecological Vegetation Class Name - Vic Bio Region&quot; --></help>
+        <label><!-- Ecological Vegetation Class --></label>
+        <lookupFilter>
+            <errorMessage><!-- This is a legacy value and cannot be linked to a new interest --></errorMessage>
+        </lookupFilter>
+        <name>tfn_Ecological_Vegetation_Class__c</name>
+        <relationshipLabel><!-- Species/EVC/EC Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- FFG Act Status --></label>
+        <name>tfn_FFG_Act_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Detailed List --></label>
+        <name>tfn_Fauna_Survey_Detailed_List__c</name>
+        <picklistValues>
+            <masterLabel>1 km block count</masterLabel>
+            <translation><!-- 1 km block count --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bat detector</masterLabel>
+            <translation><!-- Bat detector --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bat trap</masterLabel>
+            <translation><!-- Bat trap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bat tripline</masterLabel>
+            <translation><!-- Bat tripline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bird transect</masterLabel>
+            <translation><!-- Bird transect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Birds Australia 2ha search</masterLabel>
+            <translation><!-- Birds Australia 2ha search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Birds Australia 500m area search</masterLabel>
+            <translation><!-- Birds Australia 500m area search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Birds Australia 5km area search</masterLabel>
+            <translation><!-- Birds Australia 5km area search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Birds Australia incidental search</masterLabel>
+            <translation><!-- Birds Australia incidental search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Both cage/elliot and bat/fishing line trip line</masterLabel>
+            <translation><!-- Both cage/elliot and bat/fishing line trip line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cage trap</masterLabel>
+            <translation><!-- Cage trap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camera - Thermal imaging</masterLabel>
+            <translation><!-- Camera - Thermal imaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camera - remote</masterLabel>
+            <translation><!-- Camera - remote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dip Net</masterLabel>
+            <translation><!-- Dip Net --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dusk watch</masterLabel>
+            <translation><!-- Dusk watch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elliott trap</masterLabel>
+            <translation><!-- Elliott trap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elliott trap - Large</masterLabel>
+            <translation><!-- Elliott trap - Large --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Faunatech hair tubes(bait type in X)</masterLabel>
+            <translation><!-- Faunatech hair tubes(bait type in X) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frog census</masterLabel>
+            <translation><!-- Frog census --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frog transect</masterLabel>
+            <translation><!-- Frog transect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funnel Trap Drift Fence</masterLabel>
+            <translation><!-- Funnel Trap Drift Fence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giant Gippsland Earthworm Survey</masterLabel>
+            <translation><!-- Giant Gippsland Earthworm Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golden Sun Moth Adult Survey</masterLabel>
+            <translation><!-- Golden Sun Moth Adult Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golden Sun Moth Lavae Survey</masterLabel>
+            <translation><!-- Golden Sun Moth Lavae Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golden Sun Moth Pupae Survey</masterLabel>
+            <translation><!-- Golden Sun Moth Pupae Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hair tube</masterLabel>
+            <translation><!-- Hair tube --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Herp census - active</masterLabel>
+            <translation><!-- Herp census - active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Herp census - passive</masterLabel>
+            <translation><!-- Herp census - passive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Herp spot count</masterLabel>
+            <translation><!-- Herp spot count --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Herp transect</masterLabel>
+            <translation><!-- Herp transect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incidental</masterLabel>
+            <translation><!-- Incidental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invertebrate Search - active</masterLabel>
+            <translation><!-- Invertebrate Search - active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invertebrate Search - passive</masterLabel>
+            <translation><!-- Invertebrate Search - passive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invertebrate pitfall trapping</masterLabel>
+            <translation><!-- Invertebrate pitfall trapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large cage trap</masterLabel>
+            <translation><!-- Large cage trap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large hair tubes</masterLabel>
+            <translation><!-- Large hair tubes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Listening</masterLabel>
+            <translation><!-- Listening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mist net</masterLabel>
+            <translation><!-- Mist net --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nest box</masterLabel>
+            <translation><!-- Nest box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number of caves/mines/tunnels searched</masterLabel>
+            <translation><!-- Number of caves/mines/tunnels searched --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owl census</masterLabel>
+            <translation><!-- Owl census --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pitfall</masterLabel>
+            <translation><!-- Pitfall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pitfall with drift fence</masterLabel>
+            <translation><!-- Pitfall with drift fence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plains-wanderer survey</masterLabel>
+            <translation><!-- Plains-wanderer survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playback</masterLabel>
+            <translation><!-- Playback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Point spot count</masterLabel>
+            <translation><!-- Point spot count --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scat analysis</masterLabel>
+            <translation><!-- Scat analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scat census</masterLabel>
+            <translation><!-- Scat census --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small hair tubes</masterLabel>
+            <translation><!-- Small hair tubes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Right Whale Monitoring</masterLabel>
+            <translation><!-- Southern Right Whale Monitoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Species List for a defined Area</masterLabel>
+            <translation><!-- Species List for a defined Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spotlighting</masterLabel>
+            <translation><!-- Spotlighting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spotlighting by area</masterLabel>
+            <translation><!-- Spotlighting by area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spotlighting on foot</masterLabel>
+            <translation><!-- Spotlighting on foot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stag watching</masterLabel>
+            <translation><!-- Stag watching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swift Parrot Survey</masterLabel>
+            <translation><!-- Swift Parrot Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tadpole Trapping</masterLabel>
+            <translation><!-- Tadpole Trapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Targeted Search</masterLabel>
+            <translation><!-- Targeted Search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timed area stag watch</masterLabel>
+            <translation><!-- Timed area stag watch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timed bird census</masterLabel>
+            <translation><!-- Timed bird census --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timed herp census (active search)</masterLabel>
+            <translation><!-- Timed herp census (active search) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tin census (articifial substrate)</masterLabel>
+            <translation><!-- Tin census (articifial substrate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Translocation</masterLabel>
+            <translation><!-- Translocation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treadle Trap</masterLabel>
+            <translation><!-- Treadle Trap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wetland count</masterLabel>
+            <translation><!-- Wetland count --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Search for fauna --></help>
+        <label><!-- Fauna --></label>
+        <name>tfn_Fauna__c</name>
+        <relationshipLabel><!-- Species/EVC/EC Observations (Fauna) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Search for the flora --></help>
+        <label><!-- Flora --></label>
+        <name>tfn_Flora__c</name>
+        <relationshipLabel><!-- Species/EVC/EC Observations (Flora) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Historic Place Tier --></label>
+        <name>tfn_Historic_Place_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interest --></label>
+        <name>tfn_Interest__c</name>
+        <relationshipLabel><!-- Species/EVC/EC Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Major Asset Category --></label>
+        <name>tfn_Major_Asset_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modified Tier --></label>
+        <name>tfn_Modified_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monitoring (If Applicable) --></label>
+        <name>tfn_Monitoring__c</name>
+        <relationshipLabel><!-- Species/EVC/EC Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Natural Interest Tier --></label>
+        <name>tfn_Natural_Interest_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nvis Growthform --></label>
+        <name>tfn_Nvis_Growthform__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation Comments --></label>
+        <name>tfn_Observation_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the field that is used in New Covenant Proposal that is submitted to committee for approval --></help>
+        <label><!-- Observation Condition --></label>
+        <name>tfn_Observation_Condition__c</name>
+        <picklistValues>
+            <masterLabel>Good</masterLabel>
+            <translation><!-- Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate</masterLabel>
+            <translation><!-- Moderate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor</masterLabel>
+            <translation><!-- Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Good</masterLabel>
+            <translation><!-- Very Good --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Observation Coordinates --></label>
+        <name>tfn_Observation_Coordinates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation Import ID --></label>
+        <name>tfn_Observation_Import_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Observation by --></label>
+        <name>tfn_Observation_by__c</name>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation><!-- Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Covenantor</masterLabel>
+            <translation><!-- Covenantor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staff</masterLabel>
+            <translation><!-- Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volunteer</masterLabel>
+            <translation><!-- Volunteer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Origin --></label>
+        <name>tfn_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Discipline --></label>
+        <name>tfn_Primary_Discipline__c</name>
+    </fields>
+    <fields>
+        <help><!-- Staff member who recorded this observation. --></help>
+        <label><!-- Recording By --></label>
+        <name>tfn_Recording_By__c</name>
+        <relationshipLabel><!-- Species/EVC/EC Observations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recording Status --></label>
+        <name>tfn_Recording_Status__c</name>
+        <picklistValues>
+            <masterLabel>Observed</masterLabel>
+            <translation><!-- Observed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential</masterLabel>
+            <translation><!-- Potential --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Short Name --></label>
+        <name>tfn_Short_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species/EVC/EC Description --></label>
+        <name>tfn_Species_EVC_Asset_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species Image --></label>
+        <name>tfn_Species_Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species Observation Name --></label>
+        <name>tfn_Species_Observation_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species Scientific Name --></label>
+        <name>tfn_Species_Scientific_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species --></label>
+        <name>tfn_Species__c</name>
+        <relationshipLabel><!-- Species/EVC/EC Observations (Species) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Survey Type --></label>
+        <name>tfn_Survey_Type__c</name>
+        <picklistValues>
+            <masterLabel>Incidental</masterLabel>
+            <translation><!-- Incidental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monitoring</masterLabel>
+            <translation><!-- Monitoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nest box</masterLabel>
+            <translation><!-- Nest box --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quadrat</masterLabel>
+            <translation><!-- Quadrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Species List for Defined Area</masterLabel>
+            <translation><!-- Species List for Defined Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specimen</masterLabel>
+            <translation><!-- Specimen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spotlighting</masterLabel>
+            <translation><!-- Spotlighting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Targeted Search</masterLabel>
+            <translation><!-- Targeted Search --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sustainable Tier --></label>
+        <name>tfn_Sustainable_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total EVC Area --></label>
+        <name>tfn_Total_EVC_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vic Bio Region --></label>
+        <name>tfn_Vic_Bio_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Victorian Advisory Status --></label>
+        <name>tfn_Victorian_Advisory_Status__c</name>
+    </fields>
+    <layouts>
+        <layout>TFN EC Observation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EVC Search --></label>
+            <section>EVC Search</section>
+        </sections>
+        <sections>
+            <label><!-- Ecological Community Details --></label>
+            <section>Ecological Community Details</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Observation Information --></label>
+            <section>Observation Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN EVC Observation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- EVC Details --></label>
+            <section>EVC Details</section>
+        </sections>
+        <sections>
+            <label><!-- EVC Search --></label>
+            <section>EVC Search</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Observation Information --></label>
+            <section>Observation Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN Species Observation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Observation Information --></label>
+            <section>Observation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Species Details --></label>
+            <section>Species Details</section>
+        </sections>
+        <sections>
+            <label><!-- Species Search --></label>
+            <section>Species Search</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Ecological Community --></label>
+        <name>tfn_Ecological_Community</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EVC --></label>
+        <name>tfn_Ecological_Vegetation_Class</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Species --></label>
+        <name>tfn_Species</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

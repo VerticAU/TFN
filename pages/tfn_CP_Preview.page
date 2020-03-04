@@ -1,0 +1,158 @@
+<apex:page standardController="loc03__Easement_FeeTitle__c">
+    
+    <p></p>
+    <p></p>
+    <p></p>
+    
+    <apex:form >
+        <div align="center" draggable="false" >
+            <apex:commandButton onclick="window.print()" value="Print" style="background:LightBlue;width:150px;"/> <apex:commandButton onclick="window.close()" value="Close" style="background:LightBlue;width:150px;"/>
+        </div>
+    </apex:form>
+
+    <p></p>
+    <p></p>
+    <p></p>
+
+    
+        <div align="center" draggable="false" style="font-size:20px; color:black" ><p><h1>Covenant Proposal Data Preview</h1></p></div>
+
+    <p></p>
+    <p></p>
+    <p></p>
+    
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Property Details" collapsible="false">
+            <p><b>Address:</b> {!loc03__Easement_FeeTitle__c.Property_Address__c}</p> 
+            <p><b>Galaxias Property Number:</b> {!loc03__Easement_FeeTitle__c.loc03__Property__r.tfn_Galaxias_Property_Number__c}</p>
+            <p><b>Property Name:</b> {!loc03__Easement_FeeTitle__c.loc03__Property__r.Name}</p>
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+
+        
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Covenant Details" collapsible="false">
+            <p><b>Covenant Name:</b> {!loc03__Easement_FeeTitle__c.Name}</p> 
+            <p><b>Covenant Address:</b> {!loc03__Easement_FeeTitle__c.Property_Address__c}</p> 
+            <p><b>Interest Number:</b> {!loc03__Easement_FeeTitle__c.tfn_Interest_Site_ID__c}</p>
+            <p><b>Criterea objective:</b> {!loc03__Easement_FeeTitle__c.tfn_Criteria_Objective__c}</p>
+            <p><b>Origin:</b> {!loc03__Easement_FeeTitle__c.tfn_Covenant_Origin__c}</p>
+            <p><b>CMA Region:</b> {!loc03__Easement_FeeTitle__c.tfn_CMA_Region_Property__c}</p>
+            <p><b>Vic Bio Region:</b> {!loc03__Easement_FeeTitle__c.tfn_Vic_Bio_Region__c}</p> 
+            <p><b>IBRA Region:</b> {!loc03__Easement_FeeTitle__c.tfn_IBRA_Region__c}</p> 
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Covenant Primary Contact" collapsible="false">
+            <p><b>Name:</b> {!loc03__Easement_FeeTitle__c.loc03__Primary_Property_Contact__r.Name}</p>
+            <p><b>Contact Number:</b> {!loc03__Easement_FeeTitle__c.loc03__Primary_Property_Contact__r.Phone}</p>
+            <p><b>Email:</b> {!loc03__Easement_FeeTitle__c.loc03__Primary_Property_Contact__r.Email}</p>
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+    
+    
+   
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Covenant Area in Hectares" collapsible="false">
+            <p><b>Conservation Tier:</b> {!loc03__Easement_FeeTitle__c.tfn_Act_Conservation_Tier_TpI__c}</p>
+            <p><b>Modified Tier:</b> {!loc03__Easement_FeeTitle__c.tfn_Act_Modified_Tier_TpI__c}</p>
+            <p><b>Domestic Tier:</b> {!loc03__Easement_FeeTitle__c.tfn_Act_Domestic_Tier_TpI__c}</p>
+            <p><b>Natural Interest Tier:</b> {!loc03__Easement_FeeTitle__c.tfn_Act_Natural_Interest_Tier_TpI__c}</p>
+            <p><b>Sustainable Tier:</b> {!loc03__Easement_FeeTitle__c.tfn_Act_Sustainable_Tier_TpI__c}</p>
+            <p><b>Historic Place Tier:</b> {!loc03__Easement_FeeTitle__c.tfn_Act_Historic_Place_Tier_TpI__c}</p>
+            <p><b>Total Land Area:</b> {!loc03__Easement_FeeTitle__c.tfn_Total_Act_Land_Area__c}</p>
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+   
+     <apex:pageBlock >
+        <apex:pageBlockSection title="Conservation Details" collapsible="false">
+            <p><b>Landscape context:</b> {!loc03__Easement_FeeTitle__c.tfn_Landscape_Context__c}</p>
+            
+            <p><b>Covenant design:</b> This deed of covenant is {!loc03__Easement_FeeTitle__c.tfn_Deed_Type__c}, 
+            covers {!loc03__Easement_FeeTitle__c.tfn_Interest_Coverage__c} of the property 
+            and a proposal {!loc03__Easement_FeeTitle__c.tfn_Domestic_Area_Design__c} a Domestic Area.</p>
+            
+            <p><b>Summary:</b> The property is of {!loc03__Easement_FeeTitle__c.tfn_Conservation_Significance_Rating__c}
+            conversion significance and meets <b>[Count of SCPs]</b> of the objectives of the Statewide Conservation Plan.</p>
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+
+     <apex:pageBlock >
+        <apex:pageBlockSection title="Statewide Conservation Plan" collapsible="false">
+            <p><b>Improving viability of ecosystems and species:</b> {!loc03__Easement_FeeTitle__c.tfn_Statewide_Conservation_Value_1_SCP__c}</p>
+            <p><b>Improving protection of least protected ecosystems and threatened communities:</b> {!loc03__Easement_FeeTitle__c.tfn_Statewide_Conservation_Value_2__c}</p>
+            <p><b>Improve protection of significant aquatic and coastal ecosystems:</b> {!loc03__Easement_FeeTitle__c.tfn_Statewide_Conservation_Value_3__c}</p>
+            <p><b>Improving protection of threatened species:</b> {!loc03__Easement_FeeTitle__c.tfn_Statewide_Conservation_Value_4__c}</p>
+            <p><b>Enhancing and protecting landscape connectivity:</b> {!loc03__Easement_FeeTitle__c.tfn_Statewide_Conservation_Value_5__c}</p>
+            <p><b>Enhancing and protecting habitat quality:</b> {!loc03__Easement_FeeTitle__c.tfn_Statewide_Conservation_Value_6__c}</p>
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Deed Allowances" collapsible="false">
+            <apex:pageBlockTable value="{!loc03__Easement_FeeTitle__c.Deed_Restrictions__r}" var="da">
+                <apex:column value="{!da.Restriction_Type__c}"/>
+                <apex:column value="{!da.Tier__c}"/>
+                <apex:column value="{!da.tfn_Restriction_Description__c}"/>
+                <apex:column value="{!da.tfn_Deed_Comments__c}"/>
+            </apex:pageBlockTable>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Management Issues" collapsible="false">
+            <apex:pageBlockTable value="{!loc03__Easement_FeeTitle__c.Management_Actions__r}" var="mi">
+                <apex:column value="{!mi.tfn_Threat_Class__c}"/>
+                <apex:column value="{!mi.tfn_Threat_Name__c}"/>
+                <apex:column value="{!mi.tfn_Threat_Current_Level__c}"/>
+            </apex:pageBlockTable>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+
+    <apex:pageBlock >
+        <apex:pageBlockSection title="Ecological Vegetation Classes" collapsible="false">
+            <apex:pageBlockTable value="{!loc03__Easement_FeeTitle__c.Species_EVC_Observations__r}" var="evc">
+                <apex:column value="{!evc.RecordTypeId}"/>
+                <apex:column headerValue="EVC/Species/EC Name"> 
+                    <apex:outputText value="{!evc.tfn_EVC_Name_Official__c}" escape="false"/>
+                    <apex:outputText value="{!evc.tfn_Species_Scientific_Name__c}" escape="false"/>
+                    <apex:outputText value="{!evc.tfn_Ecological_Community_Name__c}" escape="false"/>
+                </apex:column>               
+                <apex:column value="{!evc.tfn_Conservation_Status__c}"/>
+                <apex:column value="{!evc.tfn_Conservation_Tier__c}"/>
+                <apex:column value="{!evc.tfn_Modified_Tier__c}"/>
+                <apex:column value="{!evc.tfn_Domestic_Tier__c}"/>
+                <apex:column value="{!evc.tfn_Natural_Interest_Tier__c}"/>
+                <apex:column value="{!evc.tfn_Sustainable_Tier__c}"/>
+                <apex:column value="{!evc.tfn_Historic_Place_Tier__c}"/>
+                <apex:column value="{!evc.tfn_Observation_Condition__c}"/>
+            </apex:pageBlockTable>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+
+     <apex:pageBlock >
+        <apex:pageBlockSection title="Dates" collapsible="false">
+            <p><b>Prepared date:</b> {!TODAY()}</p>
+            <p><b>ROM/Exec approved date:</b> {!loc03__Easement_FeeTitle__c.Executive_Team_Signing__c}</p>
+            <p><b>Committee apprval date:</b> {!loc03__Easement_FeeTitle__c.Committee_Approval__c}</p>
+        </apex:pageBlockSection>   
+    </apex:pageBlock>
+
+    <p></p>
+    <p></p>
+    <p></p>
+    
+    <apex:form >
+        <div align="center" draggable="false" >
+            <apex:commandButton onclick="window.print()" value="Print" style="background:LightBlue;width:150px;"/> <apex:commandButton onclick="window.close()" value="Close" style="background:LightBlue;width:150px;"/>
+        </div>
+    </apex:form>
+
+    <p></p>
+    <p></p>
+    <p></p>
+    
+</apex:page>

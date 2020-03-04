@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Threat and Management Action</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Threats and Management Actions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action Name --></label>
+        <name>Action_Name__c</name>
+        <picklistValues>
+            <masterLabel>Apply ecological burning</masterLabel>
+            <translation><!-- Apply ecological burning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control introduced animals to reduce competition</masterLabel>
+            <translation><!-- Control introduced animals to reduce competition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control introduced animals to reduce grazing</masterLabel>
+            <translation><!-- Control introduced animals to reduce grazing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control introduced animals to reduce predation</masterLabel>
+            <translation><!-- Control introduced animals to reduce predation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control native animals to reduce competition</masterLabel>
+            <translation><!-- Control native animals to reduce competition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control native animals to reduce grazing</masterLabel>
+            <translation><!-- Control native animals to reduce grazing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control/reduce human disturbance</masterLabel>
+            <translation><!-- Control/reduce human disturbance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erosion control</masterLabel>
+            <translation><!-- Erosion control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manage Plant Pathogens</masterLabel>
+            <translation><!-- Manage Plant Pathogens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manage environmental weeds</masterLabel>
+            <translation><!-- Manage environmental weeds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manage high threat environmental weeds</masterLabel>
+            <translation><!-- Manage high threat environmental weeds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prevent habitat fragmentation</masterLabel>
+            <translation><!-- Prevent habitat fragmentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prevent habitat loss</masterLabel>
+            <translation><!-- Prevent habitat loss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protect habitat from fire</masterLabel>
+            <translation><!-- Protect habitat from fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protect habitat from fire prevention activities</masterLabel>
+            <translation><!-- Protect habitat from fire prevention activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protect habitat from fire suppression activities</masterLabel>
+            <translation><!-- Protect habitat from fire suppression activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restore habitat</masterLabel>
+            <translation><!-- Restore habitat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undertake disturbance activities to maintain habitat and/or manage biomass</masterLabel>
+            <translation><!-- Undertake disturbance activities to maintain habitat and/or manage biomass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weed Control</masterLabel>
+            <translation><!-- Weed Control --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Man Action Description --></label>
+        <name>tfN_Man_Action_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Objective --></label>
+        <name>tfn_Action_Objective__c</name>
+        <picklistValues>
+            <masterLabel>TBC</masterLabel>
+            <translation><!-- TBC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Action Outcome Description --></label>
+        <name>tfn_Action_Outcome_Descriotion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Outcome --></label>
+        <name>tfn_Action_Outcome__c</name>
+        <picklistValues>
+            <masterLabel>Achieved Objective</masterLabel>
+            <translation><!-- Achieved Objective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Did Not Achieve Objective</masterLabel>
+            <translation><!-- Did Not Achieve Objective --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EVC Major Asset Category --></label>
+        <name>tfn_EVC_Major_Asset_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- EVC Name (Official) --></label>
+        <name>tfn_EVC_Name_Official__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interest --></label>
+        <name>tfn_Interest__c</name>
+        <relationshipLabel><!-- Threats and Management Actions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mangement Action ID --></label>
+        <name>tfn_Mangement_Action_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Objective Description --></label>
+        <name>tfn_Objective_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species Common Name --></label>
+        <name>tfn_Species_Common_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Species Scientific Name --></label>
+        <name>tfn_Species_Scientific_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Species Common Name --></label>
+        <name>tfn_Target_Species_Common_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the flora or fauna or EC, on this and/or next door property, that is posing a threat to your conservation asset. e.g. a feral cat for endangered mouse!! --></help>
+        <label><!-- Targeted Threat --></label>
+        <name>tfn_Targeted_Species__c</name>
+        <relationshipLabel><!-- Threats and Management Actions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Threat Class --></label>
+        <name>tfn_Threat_Class__c</name>
+        <picklistValues>
+            <masterLabel>Altered physical form</masterLabel>
+            <translation><!-- Altered physical form --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altered water regime</masterLabel>
+            <translation><!-- Altered water regime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competition</masterLabel>
+            <translation><!-- Competition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Degraded habitats</masterLabel>
+            <translation><!-- Degraded habitats --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disease</masterLabel>
+            <translation><!-- Disease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Genetic decline</masterLabel>
+            <translation><!-- Genetic decline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Herbivory</masterLabel>
+            <translation><!-- Herbivory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human disturbance</masterLabel>
+            <translation><!-- Human disturbance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inappropriate fire regime</masterLabel>
+            <translation><!-- Inappropriate fire regime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parasitism</masterLabel>
+            <translation><!-- Parasitism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor water quality</masterLabel>
+            <translation><!-- Poor water quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predation</masterLabel>
+            <translation><!-- Predation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduced connectivity</masterLabel>
+            <translation><!-- Reduced connectivity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soil disturbance</masterLabel>
+            <translation><!-- Soil disturbance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trampling</masterLabel>
+            <translation><!-- Trampling --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Threat Current Level --></label>
+        <name>tfn_Threat_Current_Level__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very High</masterLabel>
+            <translation><!-- Very High --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Threat Description --></label>
+        <name>tfn_Threat_Descripti__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threat Management Action Priority --></label>
+        <name>tfn_Threat_Managemen_tAction_Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very High</masterLabel>
+            <translation><!-- Very High --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Threat Management Action Assignee --></label>
+        <name>tfn_Threat_Management_Action_Assignee__c</name>
+        <relationshipLabel><!-- Threats and Management Actions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Threat Management Action Due Date --></label>
+        <name>tfn_Threat_Management_Action_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threat Management Action Status --></label>
+        <name>tfn_Threat_Management_Action_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Threat Name --></label>
+        <name>tfn_Threat_Name__c</name>
+        <picklistValues>
+            <masterLabel>Acidification</masterLabel>
+            <translation><!-- Acidification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altered flow regimes (river and estuary) - low/high/zero flows, variability and</masterLabel>
+            <translation><!-- Altered flow regimes (river and estuary) - low/high/zero flows, variability and --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altered marine exchange - estuary opening regime</masterLabel>
+            <translation><!-- Altered marine exchange - estuary opening regime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altered wetland form – depth, shape, bathymetry, dredging, channel alteration</masterLabel>
+            <translation><!-- Altered wetland form – depth, shape, bathymetry, dredging, channel alteration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bacterial or fungal infections</masterLabel>
+            <translation><!-- Bacterial or fungal infections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bank instability (river and estuary) - erosion, slumping, livestock access</masterLabel>
+            <translation><!-- Bank instability (river and estuary) - erosion, slumping, livestock access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barriers to estuarine biota</masterLabel>
+            <translation><!-- Barriers to estuarine biota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bed instability (river) - deepening, knickpoints</masterLabel>
+            <translation><!-- Bed instability (river) - deepening, knickpoints --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biota decline</masterLabel>
+            <translation><!-- Biota decline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Changed water regime (wetland) - seasonality, duration, frequency</masterLabel>
+            <translation><!-- Changed water regime (wetland) - seasonality, duration, frequency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compaction – (human, vehicles, introduced fauna)</masterLabel>
+            <translation><!-- Compaction – (human, vehicles, introduced fauna) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Damage from tourism and recreation</masterLabel>
+            <translation><!-- Damage from tourism and recreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Degraded estuarine vegetation</masterLabel>
+            <translation><!-- Degraded estuarine vegetation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Degraded riparian vegetation – structure, large trees</masterLabel>
+            <translation><!-- Degraded riparian vegetation – structure, large trees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Degraded terrestrial vegetation</masterLabel>
+            <translation><!-- Degraded terrestrial vegetation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Degraded water quality (estuary) -dissolved oxygen, turbidity, pH, chlorophyll a</masterLabel>
+            <translation><!-- Degraded water quality (estuary) -dissolved oxygen, turbidity, pH, chlorophyll a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Degraded water quality (wetland) - altered salinity regime, nutrient enrichment</masterLabel>
+            <translation><!-- Degraded water quality (wetland) - altered salinity regime, nutrient enrichment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Degraded water quality river - dissolved oxygen, conductivity, pH, phosphorus, nitrogen, turbidity, temperature, black water, nutrients, salinisation</masterLabel>
+            <translation><!-- Degraded water quality river - dissolved oxygen, conductivity, pH, phosphorus, nitrogen, turbidity, temperature, black water, nutrients, salinisation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Degraded wetland buffer vegetation</masterLabel>
+            <translation><!-- Degraded wetland buffer vegetation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Destruction of flora or fauna habitat</masterLabel>
+            <translation><!-- Destruction of flora or fauna habitat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disease caused by pathogens</masterLabel>
+            <translation><!-- Disease caused by pathogens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disturbance of acid sulphate soils</masterLabel>
+            <translation><!-- Disturbance of acid sulphate soils --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dumping – soil, rubbish</masterLabel>
+            <translation><!-- Dumping – soil, rubbish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Effluent – agricultural and industrial effluent</masterLabel>
+            <translation><!-- Effluent – agricultural and industrial effluent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erosion</masterLabel>
+            <translation><!-- Erosion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fauna</masterLabel>
+            <translation><!-- Fauna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flora</masterLabel>
+            <translation><!-- Flora --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fragmentation barriers - to movement and/or reproduction</masterLabel>
+            <translation><!-- Fragmentation barriers - to movement and/or reproduction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fragmentation increased isolation - of remaining fragments (and of gene pools)</masterLabel>
+            <translation><!-- Fragmentation increased isolation - of remaining fragments (and of gene pools) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fragmentation reduction in size - remaining fragments</masterLabel>
+            <translation><!-- Fragmentation reduction in size - remaining fragments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frequency of fire –high/low for ecological processes</masterLabel>
+            <translation><!-- Frequency of fire –high/low for ecological processes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fungal parasites</masterLabel>
+            <translation><!-- Fungal parasites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hybridisation</masterLabel>
+            <translation><!-- Hybridisation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-stream barriers</masterLabel>
+            <translation><!-- In-stream barriers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inadequate governance</masterLabel>
+            <translation><!-- Inadequate governance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inappropriate animal harvesting – hunting, fishing</masterLabel>
+            <translation><!-- Inappropriate animal harvesting – hunting, fishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inappropriate land management practices</masterLabel>
+            <translation><!-- Inappropriate land management practices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inappropriate plant harvesting – firewood collection, timber harvesting, native vegetation clearance</masterLabel>
+            <translation><!-- Inappropriate plant harvesting – firewood collection, timber harvesting, native vegetation clearance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intensity of fire –high/low for ecological processes</masterLabel>
+            <translation><!-- Intensity of fire –high/low for ecological processes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduced fauna - compete for food, breeding/nesting sites, territory</masterLabel>
+            <translation><!-- Introduced fauna - compete for food, breeding/nesting sites, territory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduced fauna - graze or browse plants/native vegetation</masterLabel>
+            <translation><!-- Introduced fauna - graze or browse plants/native vegetation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduced fauna - trample plants/native vegetation causing vegetative damage and loss</masterLabel>
+            <translation><!-- Introduced fauna - trample plants/native vegetation causing vegetative damage and loss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduced flora- compete for light, water, nutrients and space</masterLabel>
+            <translation><!-- Introduced flora- compete for light, water, nutrients and space --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduced predators (fauna)</masterLabel>
+            <translation><!-- Introduced predators (fauna) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knowledge limitations</masterLabel>
+            <translation><!-- Knowledge limitations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited capacity</masterLabel>
+            <translation><!-- Limited capacity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loss of hollow bearing trees</masterLabel>
+            <translation><!-- Loss of hollow bearing trees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loss of important habitat features - shelter/breeding sites, pollinators, symbionts etc.</masterLabel>
+            <translation><!-- Loss of important habitat features - shelter/breeding sites, pollinators, symbionts etc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loss of in-stream habitat – large wood, sedimentation</masterLabel>
+            <translation><!-- Loss of in-stream habitat – large wood, sedimentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low seed viability</masterLabel>
+            <translation><!-- Low seed viability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Native fauna - trample plants/native vegetation causing vegetative damage and loss</masterLabel>
+            <translation><!-- Native fauna - trample plants/native vegetation causing vegetative damage and loss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Native predators (fauna)</masterLabel>
+            <translation><!-- Native predators (fauna) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nutrient decline</masterLabel>
+            <translation><!-- Nutrient decline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organic matter decline</masterLabel>
+            <translation><!-- Organic matter decline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other pollution events</masterLabel>
+            <translation><!-- Other pollution events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overabundant native fauna</masterLabel>
+            <translation><!-- Overabundant native fauna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overabundant native fauna - compete for food, breeding/nesting sites, territory</masterLabel>
+            <translation><!-- Overabundant native fauna - compete for food, breeding/nesting sites, territory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overabundant native flora - compete for light, water, nutrients and space</masterLabel>
+            <translation><!-- Overabundant native flora - compete for light, water, nutrients and space --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parasites</masterLabel>
+            <translation><!-- Parasites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phytophthora cinnamomi</masterLabel>
+            <translation><!-- Phytophthora cinnamomi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pugging (introduced fauna (livestock, invasive fauna))</masterLabel>
+            <translation><!-- Pugging (introduced fauna (livestock, invasive fauna)) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduced extent (wetland and estuary) – area, estuary barriers, wetland drainage</masterLabel>
+            <translation><!-- Reduced extent (wetland and estuary) – area, estuary barriers, wetland drainage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduced floodplain connectivity</masterLabel>
+            <translation><!-- Reduced floodplain connectivity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reduced riparian connectivity: vegetation width, fragmentation, overhang</masterLabel>
+            <translation><!-- Reduced riparian connectivity: vegetation width, fragmentation, overhang --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk of bushfire –to communities and assets</masterLabel>
+            <translation><!-- Risk of bushfire –to communities and assets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salinity</masterLabel>
+            <translation><!-- Salinity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sedimentation/siltation</masterLabel>
+            <translation><!-- Sedimentation/siltation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thermal water pollution – dam releases, industrial coolant</masterLabel>
+            <translation><!-- Thermal water pollution – dam releases, industrial coolant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vegetation clearance</masterLabel>
+            <translation><!-- Vegetation clearance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle damage – animal deaths, soil and vegetation damage</masterLabel>
+            <translation><!-- Vehicle damage – animal deaths, soil and vegetation damage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viruses</masterLabel>
+            <translation><!-- Viruses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water logging</masterLabel>
+            <translation><!-- Water logging --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Threat Potential Level --></label>
+        <name>tfn_Threat_Potential_Level__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very High</masterLabel>
+            <translation><!-- Very High --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>TFN Threat and Management Action Layout</layout>
+        <sections>
+            <label><!-- Action Details --></label>
+            <section>Action Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

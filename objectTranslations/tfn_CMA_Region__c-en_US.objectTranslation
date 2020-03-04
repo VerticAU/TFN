@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CMA Region</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CMA Regions</value>
+    </caseValues>
+    <fields>
+        <label><!-- CMA Region Area Percentage --></label>
+        <name>tfn_CMA_Region_Area_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- CMA Region Area --></label>
+        <name>tfn_CMA_Region_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locality --></label>
+        <name>tfn_Locality__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

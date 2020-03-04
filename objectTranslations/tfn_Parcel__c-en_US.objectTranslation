@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Parcel (Vol/Folio)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Parcels (Vol/Folio)</value>
+    </caseValues>
+    <fields>
+        <label><!-- Interest --></label>
+        <name>Interest__c</name>
+        <relationshipLabel><!-- Parcels (Vol/Folio) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- for Offsets Only --></help>
+        <label><!-- Act. Conservation Tier (Offsets) --></label>
+        <name>tfn_Act_Conservation_Tier_Offsets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Act. Conservation Tier --></label>
+        <name>tfn_Act_Conservation_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Act. Domestic Tier --></label>
+        <name>tfn_Act_Domestic_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Act. Historic Place Tier --></label>
+        <name>tfn_Act_Historic_Place_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Act. Modified Tier --></label>
+        <name>tfn_Act_Modified_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Act. Natural Interest Tier --></label>
+        <name>tfn_Act_Natural_Interest_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Act. Sustainable Tier --></label>
+        <name>tfn_Act_Sustainable_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>tfn_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Conserved Hectares --></label>
+        <name>tfn_Conserved_Hectares__c</name>
+    </fields>
+    <fields>
+        <label><!-- Crown Allotment Number --></label>
+        <name>tfn_Crown_Allotment_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Consists of Crown Allotment Number and Section. Eg. 60A\30 --></help>
+        <label><!-- Crown Allotment --></label>
+        <name>tfn_Crown_Allotment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dealing Number --></label>
+        <name>tfn_Dealing_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Folio --></label>
+        <name>tfn_Folio__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lot Number --></label>
+        <name>tfn_Lot_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>tfn_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcel Coverage --></label>
+        <name>tfn_Parcel_Coverage__c</name>
+        <picklistValues>
+            <masterLabel>Full</masterLabel>
+            <translation><!-- Full --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part</masterLabel>
+            <translation><!-- Part --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Consists of Lot Number, Plan Number Prefix and Plan Number. Eg. 2\PP2045 --></help>
+        <label><!-- Parcel Detail --></label>
+        <name>tfn_Parcel_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parcel ID --></label>
+        <name>tfn_Parcel_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parish --></label>
+        <name>tfn_Parish__c</name>
+        <relationshipLabel><!-- Parcels (Vol/Folio) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Plan Number Prefix --></label>
+        <name>tfn_Plan_Number_Prefix__c</name>
+        <picklistValues>
+            <masterLabel>CP</masterLabel>
+            <translation><!-- CP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LP</masterLabel>
+            <translation><!-- LP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PS</masterLabel>
+            <translation><!-- PS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TP</masterLabel>
+            <translation><!-- TP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Plan Number --></label>
+        <name>tfn_Plan_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Section --></label>
+        <name>tfn_Section__c</name>
+    </fields>
+    <fields>
+        <label><!-- TFN Legacy Record Number --></label>
+        <name>tfn_TFN_Legacy_Record_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Parcel Area (Ha) --></label>
+        <name>tfn_Total_Parcel_Area_Ha__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Parcel Hectares --></label>
+        <name>tfn_Total_Parcel_Hectares__c</name>
+    </fields>
+    <fields>
+        <label><!-- Volume --></label>
+        <name>tfn_Volume__c</name>
+    </fields>
+    <layouts>
+        <layout>Parcel Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- TfN Custom Fields --></label>
+            <section>TfN Custom Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TFN Parcel Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Parcel Details --></label>
+            <section>Parcel Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

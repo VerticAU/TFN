@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Recurring Donation Confirmation (NPSP+)</name>
+    <relatedEntityType>npsp_plus__Form_Submission__c</relatedEntityType>
+    <style>none</style>
+    <subject>Recurring Donation Confirmation</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

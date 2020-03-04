@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Funding Source</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Funding Sources</value>
+    </caseValues>
+    <fields>
+        <label><!-- Interest --></label>
+        <name>Interest__c</name>
+        <relationshipLabel><!-- Funding Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Funding Project --></label>
+        <name>tfn_Funding_Project__c</name>
+        <relationshipLabel><!-- Interests --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Funding Source Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
